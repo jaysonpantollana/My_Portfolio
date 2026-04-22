@@ -14,22 +14,22 @@ export default function Footer() {
               <span className="ml-2 text-[10px] text-on-surface-variant font-mono uppercase">COMMUNICATION_LINKAGE.EXE</span>
             </div>
             
-            <div className="grid grid-cols-1 lg:flex lg:flex-wrap xl:grid xl:grid-cols-3 gap-8 lg:gap-x-12 xl:gap-16 items-start">
-              <div className="flex gap-4 items-start lg:min-w-[300px] xl:min-w-0">
+            <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-8 items-start">
+              <div className="flex gap-4 items-start max-w-sm lg:max-w-none">
                 <MapPin className="w-5 h-5 text-tertiary shrink-0" />
                 <div className="flex flex-col">
                   <span className="text-[10px] font-mono text-tertiary tracking-widest uppercase mb-1">STATION_COORDINATE</span>
-                  <span className="text-[11px] min-[1100px]:text-xs xl:text-sm font-headline text-on-surface-variant lg:whitespace-nowrap">
+                  <span className="text-[11px] sm:text-xs xl:text-sm font-headline text-on-surface-variant">
                     MSU-IIT, Tibanga, Iligan City, 9200, Mindanao, Philippines
                   </span>
                 </div>
               </div>
 
-              <div className="flex gap-4 items-start lg:min-w-[250px] xl:min-w-0">
+              <div className="flex gap-4 items-start">
                 <Mail className="w-5 h-5 text-tertiary shrink-0" />
                 <div className="flex flex-col">
                   <span className="text-[10px] font-mono text-tertiary tracking-widest uppercase mb-1">PRIMARY_UPLINK</span>
-                  <a href="mailto:jaysonpantollanaj3@gmail.com" className="text-[10px] min-[380px]:text-xs min-[1100px]:text-xs xl:text-sm font-headline text-on-surface-variant hover:text-tertiary transition-colors uppercase whitespace-nowrap">
+                  <a href="mailto:jaysonpantollanaj3@gmail.com" className="text-[10px] sm:text-xs xl:text-sm font-headline text-on-surface-variant hover:text-tertiary transition-colors uppercase">
                     jaysonpantollanaj3@gmail.com
                   </a>
                 </div>

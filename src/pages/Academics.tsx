@@ -20,7 +20,7 @@ export default function Academics() {
         }}>
       </div>
 
-      <div className="relative z-10 max-w-4xl mx-auto px-6 pt-32 flex flex-col gap-24">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 pt-20 flex flex-col gap-16">
         {/* Header Section */}
         <div className="flex flex-col gap-4">
           <motion.span 
@@ -43,8 +43,8 @@ export default function Academics() {
             </div>
           </div>
 
-          <p className="text-on-surface-variant font-body text-lg md:text-xl leading-relaxed mt-8 max-w-3xl border-l border-tertiary/20 pl-8">
-            Im spesiallizing in mechanical systems, robotic integration, mechanical manufacturing and ICT start-up at MSU-IIT Mindanao State University - Iligan Institute of Technology.
+          <p className="text-on-surface-variant font-body text-lg md:text-xl leading-relaxed mt-8 border-l border-tertiary/20 pl-8">
+            Driven by the discipline of an athlete and the precision of an engineer, I strive to honor the life I’ve been given by turning hard work into a meaningful legacy of innovation and faith.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export default function Academics() {
                 </div>
               </div>
 
-              <div className="flex flex-col gap-6 max-w-2xl">
+              <div className="flex flex-col gap-6">
                 <p className="text-on-surface-variant font-body leading-relaxed text-base italic opacity-80">
                   {item.description}
                 </p>

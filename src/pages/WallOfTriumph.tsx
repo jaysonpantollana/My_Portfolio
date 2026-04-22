@@ -4,15 +4,15 @@ import { awardsData } from "../data";
 
 export default function WallOfTriumph() {
   return (
-    <section id="triumph" className="relative z-10 max-w-7xl mx-auto px-6 py-32">
+    <section id="triumph" className="relative z-10 max-w-7xl mx-auto px-6 pt-20 pb-32">
       <div className="flex flex-col gap-16">
-        <div className="flex flex-col gap-4 max-w-2xl">
+        <div className="flex flex-col gap-4">
           <h2 className="text-4xl sm:text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter uppercase whitespace-nowrap">
             WALL OF <br/>
             <span className="text-tertiary italic">TRIUMPH</span>
           </h2>
           <p className="text-on-surface-variant text-lg font-body leading-relaxed border-l-2 border-tertiary pl-6 py-2">
-            A technical log of academic excellence and professional recognition within the mechanical engineering discipline at MSU-IIT and beyond.
+            This Wall of Triumph serves as a technical record of academic and professional excellence within the engineering, entrepreneurship, and research disciplines throughout my academic journey, honouring a journey where human dedication and divine blessings and help from God converge to transform the gift of life into a legacy of purposeful innovation.
           </p>
         </div>
 

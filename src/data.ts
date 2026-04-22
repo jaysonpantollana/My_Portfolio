@@ -181,8 +181,8 @@ Everything shifted again in Grade 5 when I discovered tennis. I decided to take 
   },
   {
     title: "MSU-IIT",
-    subtitle: "COLLEGE LIFE (2017-2023)",
-    description: "Advanced Research in Intelligent Systems (ARIS) Lab. Focused on the convergence of mechanical design and machine intelligence. Developing autonomous locomotion systems and sensor fusion modules.",
+    subtitle: "COLLEGE LIFE (2023-PRESENT)",
+    description: "STILL IN PROGRESS...",
     points: [
       "Drone-Based Automatic Water Sampling Systematic",
       "Suspended and Power-Tethered Drone (SPTD) for Inspection of High Bridges",

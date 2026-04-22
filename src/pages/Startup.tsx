@@ -52,9 +52,9 @@ function StartupCarousel({ images }: { images: string[] }) {
 
 export default function Startup() {
   return (
-    <section id="startup" className="relative z-10 max-w-7xl mx-auto px-6 py-32">
+    <section id="startup" className="relative z-10 max-w-7xl mx-auto px-6 pt-20 pb-32">
       <div className="flex flex-col gap-16">
-        <div className="flex flex-col gap-8 max-w-2xl">
+        <div className="flex flex-col gap-8">
           <div className="bg-red-900 px-4 py-1 self-start">
             <span className="text-[10px] font-headline font-bold text-white tracking-[0.2em] uppercase">Influencing the Future</span>
           </div>
@@ -62,7 +62,7 @@ export default function Startup() {
             START-UP <br/>
             <span className="text-tertiary">PROJECTS</span>
           </h2>
-          <p className="text-on-surface-variant text-xl font-body leading-relaxed max-w-xl">
+          <p className="text-on-surface-variant text-xl font-body leading-relaxed">
             Engineering-first approach to market disruption. Deploying high-efficiency logic and structural integrity to traditional service sectors.
           </p>
 
