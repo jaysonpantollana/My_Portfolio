@@ -249,3 +249,26 @@ export const projectsData = [
     image: "https://picsum.photos/seed/robot4/800/600"
   },
 ];
+
+export const BIBLE_VERSES = [
+  "Joshua 1:9 – \"Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.\"",
+  "Isaiah 41:10 – \"So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.\"",
+  "Philippians 4:13 – \"I can do all things through Christ who strengthens me.\"",
+  "2 Timothy 1:7 – \"For God has not given us a spirit of fear, but of power and of love and of a sound mind.\"",
+  "Psalm 27:1 – \"The Lord is my light and my salvation—whom shall I fear? The Lord is the stronghold of my life—of whom shall I be afraid?\"",
+  "Proverbs 3:5-6 – \"Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.\"",
+  "Philippians 4:6-7 – \"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.\"",
+  "Matthew 11:28 – \"Come to me, all you who are weary and burdened, and I will give you rest.\"",
+  "John 14:27 – \"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\"",
+  "Psalm 46:10 – \"Be still, and know that I am God.\"",
+  "1 Corinthians 13:4-7 – \"Love is patient, love is kind. It does not envy, it does not boast, it is not proud... It always protects, always trusts, always hopes, always perseveres.\"",
+  "1 John 4:19 – \"We love because he first loved us.\"",
+  "John 15:12 – \"My command is this: Love each other as I have loved you.\"",
+  "1 Peter 4:8 – \"Above all, love each other deeply, because love covers over a multitude of sins.\"",
+  "John 3:16 – \"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.\"",
+  "Jeremiah 29:11 – \"For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future.\"",
+  "Romans 8:28 – \"And we know that in all things God works for the good of those who love him, who have been called according to his purpose.\"",
+  "Lamentations 3:22-23 – \"Because of the Lord’s great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.\"",
+  "Hebrews 11:1 – \"Now faith is confidence in what we hope for and assurance about what we do not see.\"",
+  "Romans 15:13 – \"May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.\""
+];

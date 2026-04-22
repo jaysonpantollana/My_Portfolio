@@ -67,11 +67,11 @@ export default function Projects() {
           </div>
           
           <div className="flex flex-col gap-2">
-            <h1 className="text-6xl md:text-8xl font-headline font-black text-on-surface leading-none tracking-tighter uppercase">
+            <h1 className="text-5xl md:text-8xl font-headline font-black text-on-surface leading-none tracking-tighter uppercase whitespace-nowrap">
               ACTIVE
             </h1>
-            <div className="bg-[#f28b82] px-6 py-2 self-start transform -rotate-1">
-              <span className="text-5xl md:text-7xl font-headline font-black text-black uppercase tracking-tight">
+            <div className="bg-[#f28b82] px-4 md:px-6 py-1 md:py-2 self-start transform -rotate-1">
+              <span className="text-4xl md:text-7xl font-headline font-black text-black uppercase tracking-tight whitespace-nowrap">
                 PROTOTYPES
               </span>
             </div>

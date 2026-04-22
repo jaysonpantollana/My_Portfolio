@@ -58,7 +58,7 @@ export default function Startup() {
           <div className="bg-red-900 px-4 py-1 self-start">
             <span className="text-[10px] font-headline font-bold text-white tracking-[0.2em] uppercase">Influencing the Future</span>
           </div>
-          <h2 className="text-6xl md:text-8xl font-headline font-bold text-on-surface leading-[0.85] tracking-tighter uppercase">
+          <h2 className="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-[0.85] tracking-tighter uppercase whitespace-nowrap">
             START-UP <br/>
             <span className="text-tertiary">PROJECTS</span>
           </h2>

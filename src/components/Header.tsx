@@ -20,21 +20,21 @@ export default function Header() {
   return (
     <header className="fixed top-0 w-full z-50 bg-background/90 backdrop-blur-xl border-b border-outline-variant/15">
       <nav className="flex justify-between items-center h-16 px-6 w-full max-w-screen-2xl mx-auto">
-        <Link to="/" className="flex items-center gap-3">
-          <Cpu className="w-6 h-6 text-primary" />
-          <span className="text-xl font-black text-primary tracking-[0.2em] font-headline uppercase">
+        <Link to="/" className="flex items-center gap-2 md:gap-3 shrink-0">
+          <Cpu className="w-5 h-5 md:w-6 md:h-6 text-primary" />
+          <span className="text-[10px] sm:text-xs md:text-lg font-black text-primary tracking-[0.1em] md:tracking-[0.2em] font-headline uppercase whitespace-nowrap">
             J.E. PANTOLLANA
           </span>
         </Link>
         
-        <div className="hidden md:flex gap-8 items-center">
+        <div className="hidden md:flex gap-4 lg:gap-8 items-center">
           {navLinks.map((link) => (
             <Link
               key={link.name}
               to={link.path}
               className={`${
                 isActive(link.path) ? "text-tertiary" : "text-on-surface-variant"
-              } font-headline font-bold uppercase tracking-tighter hover:text-tertiary transition-colors duration-300`}
+              } font-headline font-bold uppercase tracking-tighter hover:text-tertiary transition-colors duration-300 whitespace-nowrap text-[10px] lg:text-sm`}
             >
               {link.name}
             </Link>

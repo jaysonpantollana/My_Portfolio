@@ -32,12 +32,12 @@ export default function Academics() {
           </motion.span>
           
           <div className="flex flex-col">
-            <h1 className="text-6xl md:text-[5.5rem] font-headline font-black text-on-surface leading-[0.8] tracking-tighter uppercase">
+            <h1 className="text-4xl sm:text-5xl md:text-[5.5rem] font-headline font-black text-on-surface leading-[0.9] md:leading-[0.8] tracking-tighter uppercase whitespace-nowrap">
               ACADEMIC &<br/>
               SPORTS
             </h1>
-            <div className="bg-[#333] mt-2 px-6 py-4 self-start border border-white/5">
-              <span className="text-6xl md:text-[5.5rem] font-headline font-black text-[#b71c1c] uppercase tracking-tight leading-none">
+            <div className="bg-[#333] mt-2 px-3 sm:px-6 py-2 sm:py-4 self-start border border-white/5">
+              <span className="text-4xl sm:text-5xl md:text-[5.5rem] font-headline font-black text-[#b71c1c] uppercase tracking-tight leading-none whitespace-nowrap">
                 TRAJECTORY
               </span>
             </div>

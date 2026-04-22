@@ -7,7 +7,7 @@ export default function WallOfTriumph() {
     <section id="triumph" className="relative z-10 max-w-7xl mx-auto px-6 py-32">
       <div className="flex flex-col gap-16">
         <div className="flex flex-col gap-4 max-w-2xl">
-          <h2 className="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter uppercase">
+          <h2 className="text-4xl sm:text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter uppercase whitespace-nowrap">
             WALL OF <br/>
             <span className="text-tertiary italic">TRIUMPH</span>
           </h2>
