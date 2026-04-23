@@ -180,6 +180,15 @@ Everything shifted again in Grade 5 when I discovered tennis. I decided to take 
     subtitle: "HIGH SCHOOL LIFE (2017-2023)",
     description: `The high school journey started with a lot of energy as a student-athlete from Grade 7 to 9. Those years were all about the excitement of the game, team practices, and trying to keep up with school while staying active in sports. Everything changed in Grade 10 when the pandemic hit, and suddenly the busy world of sports stopped. Being stuck at home forced a big change in focus. By Grade 11 and 12, the focus shifted away from the court and into the books. This was a major turning point, as a new love for math began to grow. The competitive spirit once used for sports was now used to solve hard equations and master academic challenges. By the end of high school, the journey had changed from being an athlete to becoming a dedicated student who truly enjoyed the challenge of numbers.`,
     points: [
+      "TOP 3 OVERALL ICHNS HONOR AWARD",
+      "DSTD 1ST PLACER",
+      "DSTF 2ND PLCER",
+      "QBO NATIONAL START-UP CHALLENG QUALIFIER",
+      "SEAMEO INNOTECH QUALIFIER",
+      "YOUNG INVENTORS CHALLENGE TOP100 QUALIFIER",
+      "iDEYA futureiliganX QUALIFIER",
+      "ICNHS BEST INNOVATION AWARD",
+      "BANTUGAN AWARD",
       "AQUA GAURDIAN: A Drone-Based Semi-Automatic Water Sampling with Tether System and Ground Computer",
       "Dr.One: Semi-Autonomous Environmental Quality Monitoring Drone with Predictive AI Analytics, Tether System, and Real-time Monitoring",
       "Sensobot: An IoT System Water Quality Monitoring with Navigation Robot Capabilities in Exclusive Water System",
@@ -192,6 +201,9 @@ Everything shifted again in Grade 5 when I discovered tennis. I decided to take 
     subtitle: "COLLEGE LIFE (2023-PRESENT)",
     description: "STILL IN PROGRESS...",
     points: [
+      "MIPTAC START-UP CHALLENGE QUALIFIER",
+      "DICT PSCX 2025 QUALIFIER",
+      "DOST-TAPI QUALIFIER",
       "Dr.One: Semi-Autonomous Environmental Quality Monitoring Drone with Predictive AI Analytics, Tether System, and Real-time Monitoring",
       "Daily Drop: A Food Delivery App",
       "Khubo: A Rental Property Listing Platform"
