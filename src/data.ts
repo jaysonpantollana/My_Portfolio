@@ -185,18 +185,18 @@ Everything shifted again in Grade 5 when I discovered tennis. I decided to take 
       "Sensobot: An IoT System Water Quality Monitoring with Navigation Robot Capabilities in Exclusive Water System",
       "Aqua-lert:An IOT-based Water Leak Detector for Residential and Industrial Use"
     ],
-    tags: ["LAWN TENNIS","STUDENT-ATHLETE","START-UP", "RESEARCH"]
+    tags: ["LAWN TENNIS","GREYHOUNDS","STUDENT-ATHLETE","START-UP","RESEARCH"]
   },
   {
     title: "MSU-IIT",
     subtitle: "COLLEGE LIFE (2023-PRESENT)",
     description: "STILL IN PROGRESS...",
     points: [
-      "Drone-Based Automatic Water Sampling Systematic",
-      "Suspended and Power-Tethered Drone (SPTD) for Inspection of High Bridges",
-      "Multi-Sensor Data Fusion for Autonomous Navigation"
+      "Dr.One: Semi-Autonomous Environmental Quality Monitoring Drone with Predictive AI Analytics, Tether System, and Real-time Monitoring",
+      "Daily Drop: A Food Delivery App",
+      "Khubo: A Rental Property Listing Platform"
     ],
-    tags: ["UAV", "DISASTER RESPONSE", "DRONE-BASED"]
+    tags: ["LAWN TENNIS","PICKLEBALL","MSU-IIT CATS","STUDENT-ATHLETE","START-UP","RESEARCH"]
   }
 ];
 
