@@ -155,10 +155,11 @@ export const academicsData = [
     subtitle: "PRE-SCHOOL JOURNEY",
     description: `beginning with the shaky courage of let-go hands at the classroom door and the gradual discovery of a world beyond home. It is a formative chapter defined by the sticky remains of craft glue, the focused silence of a coloring session, and the sudden, joyful chaos of the playground where the first foundations of friendship are built over shared toys. Through a rhythmic cycle of circle time songs, naptime stories, and the proud display of finger-painted masterpieces, a child transforms from a hesitant observer into a curious explorer. By the time the final bell rings on that first year, the journey has successfully traded separation anxiety for a newfound confidence, turning a room full of strangers into a community and a daunting school building into a second home.`,
     points: [
-      "1ST HONOR",
+      "K-1 1ST HONOR", 
+      "K-2 2ND HONOR",
       "MOST HELPFUL"
     ],
-    tags: ["WANDERING KID", "TITA BOY","HONOR STUDENT", "HYPER KID", "IPAD KID"]
+    tags: ["WANDERING KID", "TITA's BOY","HONOR STUDENT","IPAD KID"]
   },
   {
     title: "ELEMENTARY SCHOOL",
@@ -166,16 +167,23 @@ export const academicsData = [
     description: `Elementary school began with a very focused start, where from Grade 1 to 3, I was the typical "good student" who cared mostly about grades and lessons. However, that changed in Grade 4 when the fun of childhood games took over, and I became a bit of a slacker. Instead of following the teacher's instructions, I started skipping classes to play Takyan, Dampa, and Teks with my friends, or heading to the computer shop to get lost in video games.
 
 Everything shifted again in Grade 5 when I discovered tennis. I decided to take the sport seriously, which actually pushed me to start caring about my academics again, too. But because my passion for the court was so strong, I often prioritized my training over everything else. My journey through those final years of elementary was a constant balancing act I was a dedicated student-athlete who would sometimes skip homework or school projects just to squeeze in more time for a tennis match.`,
-    tags: ["HONOR STUDENT", "LAWN TENNIS"]
+    points: [
+      "G3 2ND HONOR",
+      "MILO OLYMPICS DRONZE MEDLIST",
+      "2X DIVISION ATHLETIC MEET SINGLES CHAMPION",
+      "DIVISION ATHLETIC MEET DOUBLES CHAMPION"
+    ],
+    tags: ["HONOR STUDENT", "LAWN TENNIS", "STUDEN-ATHLETE"]
   },
   {
     title: "ICNHS",
     subtitle: "HIGH SCHOOL LIFE (2017-2023)",
     description: `The high school journey started with a lot of energy as a student-athlete from Grade 7 to 9. Those years were all about the excitement of the game, team practices, and trying to keep up with school while staying active in sports. Everything changed in Grade 10 when the pandemic hit, and suddenly the busy world of sports stopped. Being stuck at home forced a big change in focus. By Grade 11 and 12, the focus shifted away from the court and into the books. This was a major turning point, as a new love for math began to grow. The competitive spirit once used for sports was now used to solve hard equations and master academic challenges. By the end of high school, the journey had changed from being an athlete to becoming a dedicated student who truly enjoyed the challenge of numbers.`,
     points: [
-      "Drone-Based Automatic Water Sampling Systematic",
-      "Suspended and Power-Tethered Drone (SPTD) for Inspection of High Bridges",
-      "Multi-Sensor Data Fusion for Autonomous Navigation"
+      "AQUA GAURDIAN: A Drone-Based Semi-Automatic Water Sampling with Tether System and Ground Computer",
+      "Dr.One: Semi-Autonomous Environmental Quality Monitoring Drone with Predictive AI Analytics, Tether System, and Real-time Monitoring",
+      "Sensobot: An IoT System Water Quality Monitoring with Navigation Robot Capabilities in Exclusive Water System",
+      "Aqua-lert:An IOT-based Water Leak Detector for Residential and Industrial Use"
     ],
     tags: ["LAWN TENNIS","STUDENT-ATHLETE","START-UP", "RESEARCH"]
   },
@@ -246,7 +254,7 @@ export const projectsData = [
     title: "AQUA-LERT",
     unit: "ASSEMBLY UNIT 001",
     description: "A modular robotic assembly designed for high-precision manufacturing environments and autonomous material handling.",
-    image: "https://picsum.photos/seed/robot4/800/600"
+    image: "/Aqua-lert image1.png"
   },
 ];
 
