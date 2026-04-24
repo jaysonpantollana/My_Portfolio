@@ -78,7 +78,7 @@ export const awardsData = [
   {
     id: "03",
     title: "WITH HIGH HONOR",
-    category: "TOP OVERALL",
+    category: "TOP 3 OVERALL",
     description: "Top honor for autonomous navigation and control system integration projects.",
     institution: "ILIGAN CITY NATIONAL HIGH SCHOOL",
     type: "standard"
@@ -173,7 +173,7 @@ Everything shifted again in Grade 5 when I discovered tennis. I decided to take 
       "2X DIVISION ATHLETIC MEET SINGLES CHAMPION",
       "DIVISION ATHLETIC MEET DOUBLES CHAMPION"
     ],
-    tags: ["HONOR STUDENT", "LAWN TENNIS", "STUDEN-ATHLETE"]
+    tags: ["HONOR STUDENT", "LAWN TENNIS", "STUDENT-ATHLETE"]
   },
   {
     title: "ICNHS",

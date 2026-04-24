@@ -2,7 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
 import { BIBLE_VERSES } from "../data";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Github, ExternalLink } from "lucide-react";
+import InteractiveKeyboard from "../components/InteractiveKeyboard";
 
 export default function Home() {
   const [currentVerse, setCurrentVerse] = useState(0);
@@ -173,6 +174,11 @@ export default function Home() {
             <ProfileImage sizeClasses="w-48 h-48 lg:w-56 lg:h-56" />
           </div>
         </motion.div>
+
+        {/* Interactive Keyboard Section Placeholder */}
+        <div className="mt-32 w-full">
+           <InteractiveKeyboard />
+        </div>
 
         {/* Gallery Section */}
         <div className="mt-32 flex flex-col gap-8 max-w-6xl mx-auto w-full">
