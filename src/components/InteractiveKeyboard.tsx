@@ -43,6 +43,7 @@ interface TechKey {
   id: string;
   label: string;
   icon?: any;
+  image?: string;
   color: string;
   category: string;
   description: string;
@@ -55,22 +56,22 @@ interface TechKeyLayout extends TechKey {
 
 const MECHANICAL_LAYOUT: TechKeyLayout[] = [
   // Row 0
-  { id: 'claude', label: 'Claude', icon: Bot, color: '#E4A089', row: 0, col: 0, category: 'AI', description: 'Next-generation AI assistant by Anthropic.' },
-  { id: 'gemini', label: 'Gemini', icon: Brain, color: '#15173F', row: 0, col: 1, category: 'AI', description: 'Google\'s most capable AI models.' },
-  { id: 'stitch', label: 'Stitch', icon: Layers, color: '#FFB3F1', row: 0, col: 2, category: 'AI', description: 'Intelligent code integration and workflow automation.' },
+  { id: 'claude', label: 'Claude', image: '/claude_logo.png', color: '#E4A089', row: 0, col: 0, category: 'AI', description: 'Next-generation AI assistant by Anthropic.' },
+  { id: 'gemini', label: 'Gemini', image: '/gemini_logo.png', color: '#15173F', row: 0, col: 1, category: 'AI', description: 'Google\'s most capable AI models.' },
+  { id: 'stitch', label: 'Stitch', image: '/stich_logo.png', color: '#FFB3F1', row: 0, col: 2, category: 'AI', description: 'Intelligent code integration and workflow automation.' },
   { id: 'antigravity', label: 'Antigravity', icon: Globe, color: '#F8F8F8', row: 0, col: 3, category: 'AI', description: 'High-performance AI agent framework.' },
-  { id: 'vs', label: 'VS Code', icon: Code2, color: '#6AC4F5', row: 0, col: 4, category: 'IDE', description: 'The most popular code editor for developers.' },
-  { id: 'vercel', label: 'Vercel', icon: Triangle, color: '#2B2B2B', row: 0, col: 5, category: 'Cloud', description: 'The platform for frontend developers.' },
-  { id: 'cloudflare', label: 'Cloudflare', icon: Cloud, color: '#FCCF8F', row: 0, col: 6, category: 'Network', description: 'Making the internet faster and more secure.' },
-  { id: 'figma', label: 'Figma', icon: FigmaIcon, color: '#191A1F', row: 0, col: 7, category: 'Design', description: 'Collaborative interface design tool.' },
+  { id: 'vs', label: 'Visual Studio', image: '/visual studio_logo.png', color: '#6AC4F5', row: 0, col: 4, category: 'IDE', description: 'The most popular code editor for developers.' },
+  { id: 'vercel', label: 'Vercel', image: '/vercel_logo.png', color: '#2B2B2B', row: 0, col: 5, category: 'Cloud', description: 'The platform for frontend developers.' },
+  { id: 'cloudflare', label: 'Cloudflare', image: '/cloudflare_logo.png', color: '#FCCF8F', row: 0, col: 6, category: 'Network', description: 'Making the internet faster and more secure.' },
+  { id: 'figma', label: 'Figma', image: '/figma_logo.png', color: '#191A1F', row: 0, col: 7, category: 'Design', description: 'Collaborative interface design tool.' },
   
   // Row 1
-  { id: 'studio', label: 'Studio AI', icon: Cpu, color: '#2B2B2B', row: 1, col: 0, category: 'AI', description: 'AI-powered development in Google Studio.' },
-  { id: 'github_key', label: 'GitHub', icon: GithubIcon, color: '#191A1F', row: 1, col: 1, category: 'Platform', description: 'World\'s leading AI-powered developer platform.' },
-  { id: 'youtube', label: 'YouTube', icon: Zap, color: '#FF5252', row: 1, col: 2, category: 'Platform', description: 'The world\'s largest video sharing platform.' },
-  { id: 'grok', label: 'Grok', icon: MessageSquareCode, color: '#191A1F', row: 1, col: 3, category: 'AI', description: 'xAI\'s humorous and rebellious AI.' },
-  { id: 'deepseek', label: 'DeepSeek', icon: Search, color: '#7F90E0', row: 1, col: 4, category: 'AI', description: 'Powerful large language models for various tasks.' },
-  { id: 'supabase', label: 'Supabase', icon: Database, color: '#7CDEB3', row: 1, col: 5, category: 'Database', description: 'The open source Firebase alternative.' },
+  { id: 'studio', label: 'Studio AI', image: '/google studio ai_logo.png', color: '#2B2B2B', row: 1, col: 0, category: 'AI', description: 'AI-powered development in Google Studio.' },
+  { id: 'github_key', label: 'GitHub', image: '/github_logo.png', color: '#191A1F', row: 1, col: 1, category: 'Platform', description: 'World\'s leading AI-powered developer platform.' },
+  { id: 'youtube', label: 'YouTube', image: '/youtube_logo.png', color: '#FF5252', row: 1, col: 2, category: 'Platform', description: 'The world\'s largest video sharing platform.' },
+  { id: 'grok', label: 'Grok', image: '/grok_logo.png', color: '#191A1F', row: 1, col: 3, category: 'AI', description: 'xAI\'s humorous and rebellious AI.' },
+  { id: 'deepseek', label: 'DeepSeek', image: '/deepseek_logo.png', color: '#7F90E0', row: 1, col: 4, category: 'AI', description: 'Powerful large language models for various tasks.' },
+  { id: 'supabase', label: 'Supabase', image: '/supabase_logo.png', color: '#7CDEB3', row: 1, col: 5, category: 'Database', description: 'The open source Firebase alternative.' },
   { id: 'next', label: 'Next.js', icon: Zap, color: '#191A1F', row: 1, col: 6, category: 'Framework', description: 'React framework for web.' },
   { id: 'node', label: 'Node.js', icon: Cpu, color: '#191A1F', row: 1, col: 7, category: 'Runtime', description: 'JavaScript runtime built on V8.' },
 
@@ -95,7 +96,7 @@ const MECHANICAL_LAYOUT: TechKeyLayout[] = [
   { id: 'fn', label: 'Fn', icon: Activity, color: '#191A1F', row: 3, col: 7, category: 'System', description: 'Function modifier.' },
 ];
 
-function Keycap({ tech, position, onClick, isOverlayOpen }: { tech: TechKeyLayout; position: [number, number, number]; onClick: () => void; isOverlayOpen: boolean }) {
+function Keycap({ tech, position, onClick }: { tech: TechKeyLayout; position: [number, number, number]; onClick: () => void }) {
   const [hovered, setHovered] = useState(false);
   const [pressed, setPressed] = useState(false);
   const keyGroupRef = useRef<THREE.Group>(null);
@@ -107,10 +108,19 @@ function Keycap({ tech, position, onClick, isOverlayOpen }: { tech: TechKeyLayou
 
   useFrame(() => {
     if (keyGroupRef.current) {
-      let targetY = 0.2;
+      // Restore hover lift effect
+      let targetY = 0.15;
       if (pressed) targetY = 0.05;
-      else if (hovered) targetY = 0.32;
-      keyGroupRef.current.position.y = THREE.MathUtils.lerp(keyGroupRef.current.position.y, targetY, pressed ? 0.3 : 0.15);
+      else if (hovered) targetY = 0.25;
+      
+      // Add a precision threshold to stop lerping when close enough
+      // This prevents the constant micro-movements that cause the logos to "shift"
+      const currentY = keyGroupRef.current.position.y;
+      if (Math.abs(currentY - targetY) > 0.001) {
+        keyGroupRef.current.position.y = THREE.MathUtils.lerp(currentY, targetY, 0.2);
+      } else {
+        keyGroupRef.current.position.y = targetY;
+      }
     }
   });
 
@@ -126,7 +136,7 @@ function Keycap({ tech, position, onClick, isOverlayOpen }: { tech: TechKeyLayou
 
   return (
     <group position={position}>
-      <group ref={keyGroupRef}>
+      <group ref={keyGroupRef} position={[0, 0.15, 0]}>
         <RoundedBox
           args={[0.8, 0.35, 0.8]} 
           radius={0.08}
@@ -149,32 +159,35 @@ function Keycap({ tech, position, onClick, isOverlayOpen }: { tech: TechKeyLayou
         >
           <meshPhysicalMaterial
             color={tech.color}
-            roughness={0.4}
+            roughness={0.5}
             metalness={0.1}
             emissive={tech.color}
-            emissiveIntensity={hovered ? 0.3 : 0}
+            emissiveIntensity={hovered ? 0.15 : 0}
           />
         </RoundedBox>
         
         <Html
-          position={[0, 0.178, 0]}
+          position={[0, 0.176, 0]}
           rotation={[-Math.PI / 2, 0, 0]}
           transform
+          center
           pointerEvents="none"
           eps={0.0001}
         >
-          <div 
-            className="flex items-center justify-center select-none" 
-            style={{ 
-                width: '40px', 
-                height: '40px', 
-                transform: 'translate(-50%, -50%)',
-                perspective: '1000px'
-            }}
+          <div
+            className="select-none flex items-center justify-center"
+            style={{ width: '24px', height: '24px' }}
           >
-            <div className="scale-[0.5] flex items-center justify-center">
-              <Icon size={32} color={iconColor} strokeWidth={2.5} />
-            </div>
+            {tech.image ? (
+              <img
+                src={tech.image}
+                alt={tech.label}
+                style={{ width: '20px', height: '20px', objectFit: 'contain' }}
+                referrerPolicy="no-referrer"
+              />
+            ) : (
+              <Icon size={18} color={iconColor} strokeWidth={2.5} />
+            )}
           </div>
         </Html>
       </group>
@@ -182,12 +195,12 @@ function Keycap({ tech, position, onClick, isOverlayOpen }: { tech: TechKeyLayou
   );
 }
 
-function KeyboardModel({ onKeyClick, isOverlayOpen }: { onKeyClick: (tech: TechKey) => void; isOverlayOpen: boolean }) {
+function KeyboardModel({ onKeyClick }: { onKeyClick: (tech: TechKey) => void }) {
   const x_step = 0.86; 
   const z_step = 0.86;
 
   return (
-    <group rotation={[1.1, 0, 0]}>
+    <group>
       {/* Chassis */}
       <RoundedBox args={[7.5, 0.6, 4.2]} radius={0.15} smoothness={4} position={[0, -0.2, 0]}>
         <meshPhysicalMaterial color="#0f0f15" roughness={0.9} metalness={0.3} />
@@ -204,7 +217,6 @@ function KeyboardModel({ onKeyClick, isOverlayOpen }: { onKeyClick: (tech: TechK
             tech={tech} 
             position={[x, 0.1, z]} 
             onClick={() => onKeyClick(tech)}
-            isOverlayOpen={isOverlayOpen}
           />
         );
       })}
@@ -250,7 +262,7 @@ export default function InteractiveKeyboard() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch pt-8">
         {/* Info Area */}
         <div className="lg:col-span-4 flex flex-col gap-8 order-2 lg:order-1">
-          <div className="relative border border-outline-variant/15 p-10 bg-surface-container-low min-h-[400px] flex flex-col justify-between overflow-hidden shadow-2xl">
+          <div className="relative border border-outline-variant/15 p-10 bg-surface-container-low h-[550px] flex flex-col justify-between overflow-hidden shadow-2xl">
             {/* Corner Decorative */}
             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-tertiary/5 to-transparent"></div>
             
@@ -319,7 +331,7 @@ export default function InteractiveKeyboard() {
         </div>
 
         {/* 3D Model Area */}
-        <div className="lg:col-span-8 relative min-h-[400px] border border-outline-variant/15 bg-black/40 order-1 lg:order-2 overflow-hidden shadow-inner group">
+        <div className="lg:col-span-8 relative h-[550px] border border-outline-variant/15 bg-black/40 order-1 lg:order-2 overflow-hidden shadow-inner group">
           <div className="absolute top-0 inset-x-0 h-1 z-20 overflow-hidden">
              <div className="w-full h-full bg-tertiary/10 animate-pulse"></div>
           </div>
@@ -331,14 +343,14 @@ export default function InteractiveKeyboard() {
                gl={{ antialias: true }}
             >
               <PerspectiveCamera makeDefault position={[0, 0, 12]} fov={30} />
-              <ambientLight intensity={0.5} />
-              <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} intensity={1} castShadow />
-              <directionalLight position={[0, 10, 5]} intensity={1.5} />
-              <pointLight position={[-10, -10, -10]} intensity={0.5} />
+              <ambientLight intensity={0.2} />
+              <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} intensity={0.4} castShadow />
+              <directionalLight position={[0, 10, 5]} intensity={0.5} />
+              <pointLight position={[-10, -10, -10]} intensity={0.2} />
               
-              <Float speed={2} rotationIntensity={0.5} floatIntensity={0.5} position={[0, 0.5, 0]}>
-                <KeyboardModel onKeyClick={setSelectedTech} isOverlayOpen={!!selectedTech} />
-              </Float>
+              <group position={[0, 0, 0]} rotation={[1.1, 0, 0]}>
+                <KeyboardModel onKeyClick={setSelectedTech} />
+              </group>
 
               <ContactShadows position={[0, -1.2, 0]} opacity={0.4} scale={15} blur={2} far={4} color="#000" />
               <Environment preset="city" />
