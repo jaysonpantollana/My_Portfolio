@@ -20,21 +20,45 @@ export default function Home() {
   };
 
   const galleryImages = [
-    "/start-up_1.jpg",
-    "/start-up_2.jpg",
-    "/start-up_3.jpg",
-    "/start-up_4.jpg",
-    "/start-up_5.jpg",
-    "/start-up_6.jpg",
-    "/fd8e1b4b-6c00-4934-8e9a-def8cc5e4188.jpg",
-    "/daily-drop_image1.jpg"
+    "/image1.jpeg",
+    "/image2.jpeg",
+    "/image3.jpeg",
+    "/image4.jpeg",
+    "/image5.jpeg",
+    "/image6.jpg",
+    "/image7.jpg",
+    "/image8.jpg",
+    "/image9.jpg",
+    "/image10.jpg",
+    "/image11.jpg",
+    "/image12.jpg",
+    "/image13.jpg",
+    "/image14.jpg",
+    "/image15.jpg",
+    "/image16.jpg"
   ];
 
   useEffect(() => {
     const verseTimer = setInterval(() => {
       setCurrentVerse((prev) => (prev + 1) % BIBLE_VERSES.length);
     }, 5000);
-    return () => clearInterval(verseTimer);
+
+    const galleryTimer = setInterval(() => {
+      if (galleryRef.current) {
+        const { scrollLeft, scrollWidth, clientWidth } = galleryRef.current;
+        // If we're at the end (with a small buffer), scroll back to start
+        if (scrollLeft + clientWidth >= scrollWidth - 10) {
+          galleryRef.current.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+          scroll('right');
+        }
+      }
+    }, 5000);
+
+    return () => {
+      clearInterval(verseTimer);
+      clearInterval(galleryTimer);
+    };
   }, []);
 
   const ProfileImage = ({ sizeClasses }: { sizeClasses: string }) => (
@@ -176,12 +200,12 @@ export default function Home() {
         </motion.div>
 
         {/* Interactive Keyboard Section Placeholder */}
-        <div className="mt-32 w-full">
+        <div className="mt-4 md:mt-32 w-full">
            <InteractiveKeyboard />
         </div>
 
         {/* Gallery Section */}
-        <div className="mt-32 flex flex-col gap-8 max-w-6xl mx-auto w-full">
+        <div className="mt-4 md:mt-32 flex flex-col gap-8 max-w-6xl mx-auto w-full">
           <div className="relative group">
             {/* Gallery Label */}
             <div className="absolute -top-4 left-0 z-20 bg-background px-4 py-1 border border-outline-variant/30">

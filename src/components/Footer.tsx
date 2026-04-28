@@ -1,4 +1,4 @@
-import { Cpu, MapPin, Mail, Facebook } from "lucide-react";
+import { Cpu, MapPin, Mail, Facebook, Github } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -37,12 +37,13 @@ export default function Footer() {
 
               <div className="flex gap-4 items-start font-mono uppercase">
                  <div className="w-5 h-5 text-tertiary shrink-0 flex items-center justify-center">
-                   <span className="text-[10px] font-bold">#</span>
+                    <span className="text-[10px] font-bold">#</span>
                  </div>
                  <div className="flex flex-col gap-3">
                   <span className="text-[10px] text-tertiary tracking-widest">NETWORK_NODES</span>
                   <div className="flex flex-wrap gap-2">
                     {[
+                      { icon: Github, label: "GITHUB", url: "https://github.com/jaysonpantollana" },
                       { icon: Facebook, label: "FACEBOOK", url: "https://www.facebook.com/jaysonpantoallana" }
                     ].map((node) => (
                       <a 

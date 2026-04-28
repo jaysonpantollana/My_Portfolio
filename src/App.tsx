@@ -6,6 +6,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import FloatingNav from "./components/FloatingNav";
 import Home from "./pages/Home";
 import WallOfTriumph from "./pages/WallOfTriumph";
 import Startup from "./pages/Startup";
@@ -38,6 +39,7 @@ export default function App() {
         </main>
 
         <Footer />
+        <FloatingNav />
       </div>
     </Router>
   );

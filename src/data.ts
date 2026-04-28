@@ -152,7 +152,7 @@ export const awardsData = [
 export const academicsData = [
   {
     title: "KINDERGARTEN",
-    subtitle: "PRE-SCHOOL JOURNEY",
+    subtitle: "PRE-SCHOOL",
     description: `beginning with the shaky courage of let-go hands at the classroom door and the gradual discovery of a world beyond home. It is a formative chapter defined by the sticky remains of craft glue, the focused silence of a coloring session, and the sudden, joyful chaos of the playground where the first foundations of friendship are built over shared toys. Through a rhythmic cycle of circle time songs, naptime stories, and the proud display of finger-painted masterpieces, a child transforms from a hesitant observer into a curious explorer. By the time the final bell rings on that first year, the journey has successfully traded separation anxiety for a newfound confidence, turning a room full of strangers into a community and a daunting school building into a second home.`,
     points: [
       "K-1 1ST HONOR", 
@@ -162,8 +162,8 @@ export const academicsData = [
     tags: ["WANDERING KID", "TITA's BOY","HONOR STUDENT","IPAD KID"]
   },
   {
-    title: "ELEMENTARY SCHOOL",
-    subtitle: "PRIMARY EDUCATION",
+    title: "ICCS",
+    subtitle: "ELEMENTARY",
     description: `Elementary school began with a very focused start, where from Grade 1 to 3, I was the typical "good student" who cared mostly about grades and lessons. However, that changed in Grade 4 when the fun of childhood games took over, and I became a bit of a slacker. Instead of following the teacher's instructions, I started skipping classes to play Takyan, Dampa, and Teks with my friends, or heading to the computer shop to get lost in video games.
 
 Everything shifted again in Grade 5 when I discovered tennis. I decided to take the sport seriously, which actually pushed me to start caring about my academics again, too. But because my passion for the court was so strong, I often prioritized my training over everything else. My journey through those final years of elementary was a constant balancing act I was a dedicated student-athlete who would sometimes skip homework or school projects just to squeeze in more time for a tennis match.`,
@@ -177,7 +177,7 @@ Everything shifted again in Grade 5 when I discovered tennis. I decided to take 
   },
   {
     title: "ICNHS",
-    subtitle: "HIGH SCHOOL LIFE (2017-2023)",
+    subtitle: "HIGH SCHOOL (2017-2023)",
     description: `The high school journey started with a lot of energy as a student-athlete from Grade 7 to 9. Those years were all about the excitement of the game, team practices, and trying to keep up with school while staying active in sports. Everything changed in Grade 10 when the pandemic hit, and suddenly the busy world of sports stopped. Being stuck at home forced a big change in focus. By Grade 11 and 12, the focus shifted away from the court and into the books. This was a major turning point, as a new love for math began to grow. The competitive spirit once used for sports was now used to solve hard equations and master academic challenges. By the end of high school, the journey had changed from being an athlete to becoming a dedicated student who truly enjoyed the challenge of numbers.`,
     points: [
       "TOP 3 OVERALL ICHNS HONOR AWARD",
@@ -198,7 +198,7 @@ Everything shifted again in Grade 5 when I discovered tennis. I decided to take 
   },
   {
     title: "MSU-IIT",
-    subtitle: "COLLEGE LIFE (2023-PRESENT)",
+    subtitle: "COLLEGE (2023-PRESENT)",
     description: "STILL IN PROGRESS...",
     points: [
       "MIPTAC START-UP CHALLENGE QUALIFIER",
@@ -209,33 +209,6 @@ Everything shifted again in Grade 5 when I discovered tennis. I decided to take 
       "Khubo: A Rental Property Listing Platform"
     ],
     tags: ["LAWN TENNIS","PICKLEBALL","MSU-IIT CATS","STUDENT-ATHLETE","START-UP","RESEARCH"]
-  }
-];
-
-export const instrumentationData = [
-  {
-    id: "MODULE_01",
-    title: "SOLIDWORKS & ANSYS",
-    subtitle: "FEM ANALYSIS",
-    icon: "Box"
-  },
-  {
-    id: "MODULE_02",
-    title: "MATLAB / SIMULINK",
-    subtitle: "LINEAR SYSTEMS",
-    icon: "Sigma"
-  },
-  {
-    id: "MODULE_03",
-    title: "C++ & EMBEDDED C",
-    subtitle: "FIRMWARE ARCH",
-    icon: "Code"
-  },
-  {
-    id: "MODULE_04",
-    title: "ROS 2 SYSTEMS",
-    subtitle: "PUB/SUB MIDDLEWARE",
-    icon: "Network"
   }
 ];
 
@@ -266,7 +239,7 @@ export const projectsData = [
     title: "AQUA-LERT",
     unit: "ASSEMBLY UNIT 001",
     description: "A modular robotic assembly designed for high-precision manufacturing environments and autonomous material handling.",
-    image: "/Aqua-lert image1.png"
+    images: ["/Aqua-lert image1.png", "/Aqua-lert image2.png"]
   },
 ];
 

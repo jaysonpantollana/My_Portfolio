@@ -31,7 +31,7 @@ function StartupCarousel({ images }: { images: string[] }) {
           <div key={i} className="min-w-full h-full p-5 snap-start flex items-center justify-center">
             <img 
               src={img} 
-              className="w-full h-full object-contain opacity-40 grayscale group-hover:grayscale-0 group-hover:opacity-70 transition-all duration-700" 
+              className="w-full h-full object-contain opacity-40 group-hover:opacity-70 transition-all duration-700" 
               referrerPolicy="no-referrer"
             />
           </div>
@@ -116,40 +116,7 @@ export default function Startup() {
           ))}
         </div>
 
-        <div className="max-w-4xl mx-auto w-full border-t border-outline-variant/15 pt-24 pb-12 flex flex-col gap-16">
-          <div className="flex justify-between items-start">
-            <div className="flex flex-col gap-8 flex-1 max-w-xl">
-              <span className="text-[10px] font-headline font-bold text-tertiary tracking-[0.4em] uppercase">PROJECTS OVERVIEW</span>
-              <div className="flex flex-col gap-6">
-                {[
-                  { label: "STATUS", value: "ACTIVE" },
-                  { label: "DEVELOPERS", value: "4_PERSONNEL" },
-                  { label: "FOUNDER", value: "J.E. PANTOLLANA", highlight: true }
-                ].map((metric) => (
-                  <div key={metric.label} className="flex justify-between items-center">
-                    <span className="text-xs font-headline font-bold text-on-surface-variant/40 tracking-[0.1em]">{metric.label}</span>
-                    <span className={`text-sm font-headline font-black tracking-widest ${metric.highlight ? 'text-tertiary' : 'text-on-surface'}`}>{metric.value}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            
-            <div className="hidden md:flex h-32 items-center">
-              <span className="text-[8px] font-mono text-on-surface-variant/20 tracking-[0.5em] uppercase [writing-mode:vertical-lr] rotate-180">
-                INDUSTRIAL_UI_SYSTEM_v.0.2
-              </span>
-            </div>
-          </div>
 
-          <div className="flex flex-col gap-4">
-            <span className="text-[10px] font-headline font-bold text-tertiary tracking-[0.4em] uppercase">V_INDEX_NOTES</span>
-            <div className="flex flex-col gap-2 font-mono text-[10px] text-on-surface-variant/60 leading-relaxed">
-              <p>// START_UPS ARE EVALUATED BASED ON STRUCTURAL SOUNDNESS AND LOGICAL SCALABILITY.</p>
-              <p>// ALL ENTITIES LISTED ARE FULLY DEPLOYED IN PRODUCTION ENVIRONMENTS.</p>
-              <p>// DATA OVERLAYS ARE REAL-TIME REPRESENTATIONS OF CORE KPI STREAMS.</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
