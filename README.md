@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" src="public/Readme" />
+<img width="1200" height="475" src="public/Readme.png" />
 </div>
 
 # Run and deploy your AI Studio app
