@@ -5,7 +5,7 @@
 
 **Student · Researcher · Vibecoder · Athlete**
 
-[![Claude AI](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
@@ -35,18 +35,17 @@ Built with a modern, performant stack and featuring 3D animations, smooth scroll
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ "The Tech Stack"
 
-| Category | Technology |
-|---|---|
-| Framework | React 19 + TypeScript |
-| Build Tool | Vite 6 |
-| Styling | Tailwind CSS v4 |
-| 3D Graphics | Three.js · React Three Fiber · Drei |
-| Animation | GSAP · Framer Motion |
-| Icons | Lucide React |
-| AI API | Google Gemini (`@google/genai`) |
-| Routing | React Router DOM v7 |
+| Tools |
+|---|
+| Google Studio AI |
+| Claude Code |
+| Gemini AI|
+| Stitch AI |
+| Figma |
+| Canva |
+| Cloudeflare |
 
 ---
 
@@ -58,28 +57,6 @@ Built with a modern, performant stack and featuring 3D animations, smooth scroll
 | **Aqua Guardian** | Drone-based semi-automatic water sampling system with tether system and ground computer |
 | **Sensobot** | IoT-based water quality monitoring system with navigation robot capabilities |
 | **Aqua-lert** | IoT-based water leak detector for residential and industrial use |
-
----
-
-## 🚀 Start-ups
-
-- **DAILYDROP** — A logistics-first food delivery app with ML-optimized pathing (24% increase in driver efficiency)
-- **KHUBO** — A rental property listing ecosystem connecting multi-tenant systems with smart infrastructure (99.9% uptime, 1,482+ active nodes)
-
----
-
-## 🏆 Awards & Recognition
-
-| Level | Award |
-|---|---|
-| International | SEAMEO INNOTECH Finalist |
-| International | Young Inventors Challenge — Top 100 |
-| National | QBO Start-Up Challenge Qualifier |
-| National | DICT PSCX 2025 Qualifier |
-| Regional | DOST-TAPI Regional Invention Contest Qualifier |
-| Regional | MIPTAC 2025 Qualifier |
-| City | Bantugan Awardee — Iligan City Mayor's Academic Excellence Award |
-| School | ICNHS Best Innovation Award · Top 3 Overall · With High Honor |
 
 ---
 
@@ -118,39 +95,15 @@ npm run lint     # Type-check with TypeScript
 
 ## 🤖 Run in Google AI Studio
 
-Prefer not to set up a local environment? You can explore and run this app directly in **Google AI Studio** — no installation required.
+You can explore and run this app directly in **Google AI Studio** — Click the link below.
+
 
 👉 **[Open in Google AI Studio](https://ai.studio/apps/9d00070e-b8d4-422a-9621-39756cad292a)**
 
-**Steps:**
 
-1. Click the link above to open the app in Google AI Studio
-2. Sign in with your Google account if prompted
-3. Click **"Run"** to launch the app instantly in your browser
-4. To use AI features, make sure you have a **Gemini API key** configured in your AI Studio settings
-
-> **Note:** Google AI Studio provides a hosted environment where you can interact with the app and even remix it to build your own version — powered by Gemini.
 
 ---
-## 📁 Project Structure
 
-```
-My_Portfolio/
-├── public/          # Static assets (images, logos)
-├── src/
-│   ├── components/  # Reusable UI components
-│   ├── pages/       # Page-level components
-│   ├── data.ts      # Portfolio content & data
-│   ├── App.tsx      # Root component & routing
-│   ├── main.tsx     # Entry point
-│   └── index.css    # Global styles
-├── index.html
-├── vite.config.ts
-├── tsconfig.json
-└── package.json
-```
-
----
 
 ## 📬 Contact
 
