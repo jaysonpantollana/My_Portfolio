@@ -18,7 +18,7 @@
 
 ## 📖 About
 
-This is my personal portfolio website — a digital space that captures my journey as a student, researcher, innovator, and athlete. From building award-winning drones and IoT systems in high school to launching start-ups and competing on national and international stages, this portfolio is a living record of my work and aspirations.
+This is my personal portfolio website a digital space that captures my journey as a student, researcher, innovator, and athlete. From building award-winning drones and IoT systems in high school to launching start-ups and competing on national and international stages, this portfolio is a living record of my work and aspirations.
 
 Built with a modern, performant stack and featuring 3D animations, smooth scroll interactions, and a sleek dark aesthetic.
 
