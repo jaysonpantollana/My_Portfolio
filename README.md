@@ -5,12 +5,10 @@
 
 **Student · Researcher · Vibecoder · Athlete**
 
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Three.js](https://img.shields.io/badge/Three.js-0.170-000000?logo=threedotjs&logoColor=white)](https://threejs.org/)
-[![View in AI Studio](https://img.shields.io/badge/View%20in-Google%20AI%20Studio-4285F4?logo=google&logoColor=white)](https://ai.studio/apps/9d00070e-b8d4-422a-9621-39756cad292a)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/jaysonpantoallana)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/jaysonpantollana)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jaysonpantollanaj3@gmail.com)
+[![Address](https://img.shields.io/badge/Address-F61A21?logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Iligan+City,+Lanao+del+Norte)
 
 </div>
 
