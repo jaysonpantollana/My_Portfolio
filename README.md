@@ -1,14 +1,14 @@
 <div align="center">
 <img width="1200" height="475" src="public/Readme.png" />
 
-# 🚀 Jayson Pantollana — Personal Portfolio
+# 🚀 My Personal Portfolio
 
 **Student · Researcher · Vibecoder · Athlete**
 
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/jaysonpantoallana)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/jaysonpantollana)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jaysonpantollanaj3@gmail.com)
-[![Address](https://img.shields.io/badge/Address-F61A21?logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Iligan+City,+Lanao+del+Norte)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&to=jaysonpantollanaj3@gmail.com)
+[![Address](https://img.shields.io/badge/Address-F61A21?logo=google-maps&logoColor=white)](https://www.google.com/maps/place/8%C2%B015'28.5%22N+124%C2%B015'58.8%22E/@8.2579123,124.2656953,19z/data=!3m1!4b1!4m4!3m3!8m2!3d8.257911!4d124.266339?entry=ttu&g_ep=EgoyMDI2MDQyNi4wIKXMDSoASAFQAw%3D%3D)
 
 </div>
 
