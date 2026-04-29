@@ -35,15 +35,17 @@ Built with a modern, performant stack and featuring 3D animations, smooth scroll
 
 ## 🛠️ "The Tech Stack"
 
-| Tools |
-|---|
-| Google Studio AI |
-| Claude Code |
-| Gemini AI|
-| Stitch AI |
-| Figma |
-| Canva |
-| Cloudeflare |
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge)
+![Antigravity](https://img.shields.io/badge/Antigravity-8A2BE2?style=for-the-badge)
+![Claude AI](https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge)
+![Gemini AI](https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge)
+![Google AI Studio](https://img.shields.io/badge/Google_AI_Studio-4285F4?style=for-the-badge)
+![Stitch AI](https://img.shields.io/badge/Stitch_AI-FF6B6B?style=for-the-badge)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge)
 
 ---
 
