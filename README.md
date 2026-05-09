@@ -98,7 +98,7 @@ npm run lint     # Type-check with TypeScript
 You can explore and run this app directly in **Google AI Studio** — Click the link below.
 
 
-👉 **[Open in Google AI Studio](https://ai.studio/apps/9d00070e-b8d4-422a-9621-39756cad292a)**
+👉 **[View Portfolio:](https://ais-dev-bcu4tt6yjeozowc27s7smj-749953598123.asia-southeast1.run.app)**
 
 
 
