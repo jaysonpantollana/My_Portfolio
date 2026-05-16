@@ -4,6 +4,7 @@
  */
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import FloatingNav from "./components/FloatingNav";
@@ -16,6 +17,7 @@ import Projects from "./pages/Projects";
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen selection:bg-tertiary selection:text-black flex flex-col">
         <Header />
         
