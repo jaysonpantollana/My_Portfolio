@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { motion } from "motion/react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { startupsData } from "../data";
 
 function StartupCarousel({ images }: { images: string[] }) {
@@ -21,8 +22,28 @@ function StartupCarousel({ images }: { images: string[] }) {
     return () => clearInterval(timer);
   }, [currentSlide, images.length]);
 
+  const goToSlide = (index: number) => {
+    if (carouselRef.current) {
+      carouselRef.current.scrollTo({
+        left: index * carouselRef.current.offsetWidth,
+        behavior: "smooth"
+      });
+      setCurrentSlide(index);
+    }
+  };
+
+  const next = () => {
+    const nextIndex = (currentSlide + 1) % images.length;
+    goToSlide(nextIndex);
+  };
+
+  const prev = () => {
+    const prevIndex = (currentSlide - 1 + images.length) % images.length;
+    goToSlide(prevIndex);
+  };
+
   return (
-    <div className="absolute inset-0 z-0">
+    <div className="absolute inset-0 z-0 group/carousel">
       <div 
         ref={carouselRef}
         className="w-full h-full flex overflow-x-hidden snap-x snap-mandatory"
@@ -37,6 +58,21 @@ function StartupCarousel({ images }: { images: string[] }) {
           </div>
         ))}
       </div>
+
+      {/* Navigation Buttons */}
+      <button 
+        onClick={(e) => { e.stopPropagation(); prev(); }}
+        className="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-black/40 border border-white/10 text-white opacity-0 group-hover/carousel:opacity-100 transition-opacity hover:bg-tertiary transition-colors z-30"
+      >
+        <ChevronLeft className="w-5 h-5" />
+      </button>
+      <button 
+        onClick={(e) => { e.stopPropagation(); next(); }}
+        className="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-black/40 border border-white/10 text-white opacity-0 group-hover/carousel:opacity-100 transition-opacity hover:bg-tertiary transition-colors z-30"
+      >
+        <ChevronRight className="w-5 h-5" />
+      </button>
+
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-20">
         {images.map((_, i) => (
           <div 

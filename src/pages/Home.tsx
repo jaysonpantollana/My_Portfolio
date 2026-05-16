@@ -69,7 +69,7 @@ export default function Home() {
       
       <div className="w-full h-full rounded-full border border-tertiary overflow-hidden shadow-[0_0_20px_rgba(251,188,0,0.15)] md:shadow-[0_0_30px_rgba(251,188,0,0.2)] bg-surface-container-high relative z-10">
         <img 
-          src="/2x2.png" 
+          src="/profile.png" 
           alt="Jayson E. Pantollana Profile" 
           className="w-full h-full object-cover transition-all duration-500"
           referrerPolicy="no-referrer"
