@@ -1,4 +1,4 @@
-import { Cpu, MapPin, Mail, Facebook, Github } from "lucide-react";
+import { Cpu, MapPin, Mail, Phone, Facebook, Github } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -31,6 +31,27 @@ export default function Footer() {
                   <span className="text-[10px] font-mono text-tertiary tracking-widest uppercase mb-1">PRIMARY_UPLINK</span>
                   <a href="mailto:jaysonpantollanaj3@gmail.com" className="text-[10px] sm:text-xs xl:text-sm font-headline text-on-surface-variant hover:text-tertiary transition-colors uppercase">
                     jaysonpantollanaj3@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex gap-4 items-start">
+                <Phone className="w-5 h-5 text-tertiary shrink-0" />
+                <div className="flex flex-col">
+                  <span className="text-[10px] font-mono text-tertiary tracking-widest uppercase mb-1">DIRECT_LINE</span>
+                  <a 
+                    href="tel:+639351274355" 
+                    onClick={(e) => {
+                      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+                      if (!isMobile) {
+                        e.preventDefault();
+                        navigator.clipboard.writeText("09351274355");
+                        alert("Phone number copied to clipboard!");
+                      }
+                    }}
+                    className="text-[10px] sm:text-xs xl:text-sm font-headline text-on-surface-variant hover:text-tertiary transition-colors uppercase"
+                  >
+                    09351274355
                   </a>
                 </div>
               </div>

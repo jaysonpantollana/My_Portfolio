@@ -432,7 +432,7 @@ export default function InteractiveKeyboard() {
                     onClick={() => setSelectedTech(null)}
                     className="flex-1 py-4 bg-white text-black hover:bg-tertiary transition-all font-headline font-black text-[10px] tracking-[0.3em] uppercase flex items-center justify-center gap-2 group"
                   >
-                    <span>Terminate View</span>
+                    <span>Back</span>
                     <div className="w-1.5 h-1.5 bg-black rounded-full transition-all group-hover:scale-150"></div>
                   </button>
                 </div>
