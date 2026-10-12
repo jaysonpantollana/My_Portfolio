@@ -201,6 +201,8 @@ Everything shifted again in Grade 5 when I discovered tennis. I decided to take 
     subtitle: "COLLEGE (2023-PRESENT)",
     description: "STILL IN PROGRESS...",
     points: [
+      "MSUSAA 2026 BRONZE MEDALIST PICKLEBALL EVENT",
+      "OFFICIALY REGISTERED SAFETY OFFICER-2 BY UJPSME (DOLE ACCRIDITED)",
       "LICTSAA 2026 CHAMPION",
       "MAST GAMES 2025 CHAMPION",
       "1ST DINKYARD TOUR 1ST RUNNER-UP MIXED DOUBLES",
