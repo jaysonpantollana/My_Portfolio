@@ -12,6 +12,7 @@ import {
   useTexture
 } from '@react-three/drei';
 import { motion, AnimatePresence } from 'motion/react';
+import ErrorBoundary from './ErrorBoundary';
 import { 
   Terminal, 
   Box, 
@@ -58,22 +59,22 @@ interface TechKeyLayout extends TechKey {
 
 const MECHANICAL_LAYOUT: TechKeyLayout[] = [
   // Row 0
-  { id: 'claude', label: 'Claude', image: '/claude_logo.png', color: '#E4A089', row: 0, col: 0, category: 'AI', description: 'Next-generation AI assistant by Anthropic.' },
-  { id: 'gemini', label: 'Gemini', image: '/gemini_logo.png', color: '#15173F', row: 0, col: 1, category: 'AI', description: 'Google\'s most capable AI models.' },
-  { id: 'stitch', label: 'Stitch', image: '/stich_logo.png', color: '#FFB3F1', row: 0, col: 2, category: 'AI', description: 'Intelligent code integration and workflow automation.' },
+  { id: 'claude', label: 'Claude', image: '/assets/logos/claude_logo.png', color: '#E4A089', row: 0, col: 0, category: 'AI', description: 'Next-generation AI assistant by Anthropic.' },
+  { id: 'gemini', label: 'Gemini', image: '/assets/logos/gemini_logo.png', color: '#15173F', row: 0, col: 1, category: 'AI', description: 'Google\'s most capable AI models.' },
+  { id: 'stitch', label: 'Stitch', image: '/assets/logos/stich_logo.png', color: '#FFB3F1', row: 0, col: 2, category: 'AI', description: 'Intelligent code integration and workflow automation.' },
   { id: 'antigravity', label: 'Antigravity', icon: Globe, color: '#F8F8F8', row: 0, col: 3, category: 'AI', description: 'High-performance AI agent framework.' },
-  { id: 'vs', label: 'Visual Studio', image: '/visual_studio_logo.png', color: '#6AC4F5', row: 0, col: 4, category: 'IDE', description: 'The most popular code editor for developers.' },
-  { id: 'vercel', label: 'Vercel', image: '/vercel_logo.png', color: '#2B2B2B', row: 0, col: 5, category: 'Cloud', description: 'The platform for frontend developers.' },
-  { id: 'cloudflare', label: 'Cloudflare', image: '/cloudflare_logo.png', color: '#FCCF8F', row: 0, col: 6, category: 'Network', description: 'Making the internet faster and more secure.' },
-  { id: 'figma', label: 'Figma', image: '/figma_logo.png', color: '#191A1F', row: 0, col: 7, category: 'Design', description: 'Collaborative interface design tool.' },
+  { id: 'vs', label: 'Visual Studio', image: '/assets/logos/visual_studio_logo.png', color: '#6AC4F5', row: 0, col: 4, category: 'IDE', description: 'The most popular code editor for developers.' },
+  { id: 'vercel', label: 'Vercel', image: '/assets/logos/vercel_logo.png', color: '#2B2B2B', row: 0, col: 5, category: 'Cloud', description: 'The platform for frontend developers.' },
+  { id: 'cloudflare', label: 'Cloudflare', image: '/assets/logos/cloudflare_logo.png', color: '#FCCF8F', row: 0, col: 6, category: 'Network', description: 'Making the internet faster and more secure.' },
+  { id: 'figma', label: 'Figma', image: '/assets/logos/figma_logo.png', color: '#191A1F', row: 0, col: 7, category: 'Design', description: 'Collaborative interface design tool.' },
   
   // Row 1
-  { id: 'studio', label: 'Studio AI', image: '/google_studio_ai_logo.png', color: '#2B2B2B', row: 1, col: 0, category: 'AI', description: 'AI-powered development in Google Studio.' },
-  { id: 'github_key', label: 'GitHub', image: '/github_logo.png', color: '#191A1F', row: 1, col: 1, category: 'Platform', description: 'World\'s leading AI-powered developer platform.' },
-  { id: 'youtube', label: 'YouTube', image: '/youtube_logo.png', color: '#FF5252', row: 1, col: 2, category: 'Platform', description: 'The world\'s largest video sharing platform.' },
-  { id: 'grok', label: 'Grok', image: '/grok_logo.png', color: '#191A1F', row: 1, col: 3, category: 'AI', description: 'xAI\'s humorous and rebellious AI.' },
-  { id: 'deepseek', label: 'DeepSeek', image: '/deepseek_logo.png', color: '#7F90E0', row: 1, col: 4, category: 'AI', description: 'Powerful large language models for various tasks.' },
-  { id: 'supabase', label: 'Supabase', image: '/supabase_logo.png', color: '#7CDEB3', row: 1, col: 5, category: 'Database', description: 'The open source Firebase alternative.' },
+  { id: 'studio', label: 'Studio AI', image: '/assets/logos/google_studio_ai_logo.png', color: '#2B2B2B', row: 1, col: 0, category: 'AI', description: 'AI-powered development in Google Studio.' },
+  { id: 'github_key', label: 'GitHub', image: '/assets/logos/github_logo.png', color: '#191A1F', row: 1, col: 1, category: 'Platform', description: 'World\'s leading AI-powered developer platform.' },
+  { id: 'youtube', label: 'YouTube', image: '/assets/logos/youtube_logo.png', color: '#FF5252', row: 1, col: 2, category: 'Platform', description: 'The world\'s largest video sharing platform.' },
+  { id: 'grok', label: 'Grok', image: '/assets/logos/grok_logo.png', color: '#191A1F', row: 1, col: 3, category: 'AI', description: 'xAI\'s humorous and rebellious AI.' },
+  { id: 'deepseek', label: 'DeepSeek', image: '/assets/logos/deepseek_logo.png', color: '#7F90E0', row: 1, col: 4, category: 'AI', description: 'Powerful large language models for various tasks.' },
+  { id: 'supabase', label: 'Supabase', image: '/assets/logos/supabase_logo.png', color: '#7CDEB3', row: 1, col: 5, category: 'Database', description: 'The open source Firebase alternative.' },
   { id: 'next', label: 'Next.js', icon: Zap, color: '#191A1F', row: 1, col: 6, category: 'Framework', description: 'React framework for web.' },
   { id: 'node', label: 'Node.js', icon: Cpu, color: '#191A1F', row: 1, col: 7, category: 'Runtime', description: 'JavaScript runtime built on V8.' },
 
@@ -326,6 +327,11 @@ export default function InteractiveKeyboard() {
           </div>
 
           <div className="absolute inset-0 cursor-grab active:cursor-grabbing">
+            <ErrorBoundary fallback={
+              <div className="w-full h-full flex items-center justify-center text-white/40 text-sm font-headline uppercase tracking-widest">
+                3D view unavailable
+              </div>
+            }>
             <Canvas 
                shadows 
                dpr={[1, 2]}
@@ -345,6 +351,7 @@ export default function InteractiveKeyboard() {
               <ContactShadows position={[0, -1.2, 0]} opacity={0.4} scale={15} blur={2} far={4} color="#000" />
               <Environment preset="city" />
             </Canvas>
+            </ErrorBoundary>
           </div>
 
           {/* HUD Accents */}
