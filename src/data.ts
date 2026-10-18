@@ -1,8 +1,8 @@
 import { Award, GraduationCap, Truck, Building2 } from "lucide-react";
 
 export const droneImages = [
-  "/drone_1.png",
-  "/drone_2.png"
+  "/projects/drone_1.png",
+  "/projects/drone_2.png"
 ];
 
 export const startupsData = [
@@ -11,11 +11,11 @@ export const startupsData = [
     title: "DAILYDROP",
     category: "Food delivery app",
     images: [
-      "/daily-drop_image1.jpg",
-      "/daily-drop_image2.jpg",
-      "/daily-drop_image3.jpg",
-      "/daily-drop_image4.jpg",
-      "/fd8e1b4b-6c00-4934-8e9a-def8cc5e4188.jpg"
+      "/startup/daily-drop_image1.jpg",
+      "/startup/daily-drop_image2.jpg",
+      "/startup/daily-drop_image3.jpg",
+      "/startup/daily-drop_image4.jpg",
+      "/startup/fd8e1b4b-6c00-4934-8e9a-def8cc5e4188.jpg"
     ],
     description: "A logistics-first delivery architecture designed to minimize pathing latency through machine learning optimization. Currently operating with a 24% increase in driver efficiency compared to legacy models.",
     feed: "LIVE_FEED: NODE_TX_99",
@@ -31,12 +31,12 @@ export const startupsData = [
     title: "KHUBO",
     category: "Renttal property listing app",
     images: [
-      "/start-up_1.jpg",
-      "/start-up_2.jpg",
-      "/start-up_3.jpg",
-      "/start-up_4.jpg",
-      "/start-up_5.jpg",
-      "/start-up_6.jpg"
+      "/startup/start-up_1.jpg",
+      "/startup/start-up_2.jpg",
+      "/startup/start-up_3.jpg",
+      "/startup/start-up_4.jpg",
+      "/startup/start-up_5.jpg",
+      "/startup/start-up_6.jpg"
     ],
     description: "A rental ecosystem built on structural connectivity. We treat real estate listings as dynamic engineering components, allowing for seamless integration between multi-tenant systems and smart infrastructure.",
     feed: "CONNECTIVITY_MAP",
@@ -229,17 +229,10 @@ export const projectsData = [
     image: "https://picsum.photos/seed/robot1/800/600"
   },
   {
-    id: "002",
-    title: "AQUA GUARDIAN",
-    unit: "ASSEMBLY UNIT 001",
-    description: "A modular robotic assembly designed for high-precision manufacturing environments and autonomous material handling.",
-    image: "https://picsum.photos/seed/robot2/800/600"
-  },
-  {
     id: "003",
     title: "DR. ONE",
     unit: "ASSEMBLY UNIT 001",
-    description: "A modular robotic assembly designed for high-precision manufacturing environments and autonomous material handling.",
+    description: "DR. ONE: A Semi-Autonimous Drone for Enviromental Quality Monitoring with Theter System, Predictive AI Analytics, and Real-Time Monitoring",
     images: droneImages
   },
   {
@@ -247,7 +240,7 @@ export const projectsData = [
     title: "AQUA-LERT",
     unit: "ASSEMBLY UNIT 001",
     description: "A modular robotic assembly designed for high-precision manufacturing environments and autonomous material handling.",
-    images: ["/Aqua-lert image1.png", "/Aqua-lert image2.png"]
+    images: ["/projects/Aqua-lert image1.png", "/projects/Aqua-lert image2.png"]
   },
 ];
 

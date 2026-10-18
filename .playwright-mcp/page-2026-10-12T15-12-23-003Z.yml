@@ -1,0 +1,185 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "J.E. PANTOLLANA" [ref=e10] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e15]:
+        - link "HOME" [ref=e16] [cursor=pointer]:
+          - /url: /
+        - link "ACADEMICS & SPORTS" [ref=e17] [cursor=pointer]:
+          - /url: /academics
+        - link "PROJECTS" [ref=e18] [cursor=pointer]:
+          - /url: /projects
+        - link "WALL OF TRIUMPH" [ref=e19] [cursor=pointer]:
+          - /url: /triumph
+        - link "START-UP" [ref=e20] [cursor=pointer]:
+          - /url: /startup
+  - main [ref=e21]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]: MY_HUMBLE_LIFE_JOURNEY 101
+        - generic [ref=e26]:
+          - heading "ACADEMIC & SPORTS" [level=1] [ref=e27]: ACADEMIC &SPORTS
+          - generic [ref=e28]: TRAJECTORY
+        - paragraph [ref=e29]: Driven by the discipline of an athlete and the precision of an engineer, I strive to honor the life I’ve been given by turning hard work into a meaningful legacy of innovation and faith.
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - heading "KINDERGARTEN" [level=2] [ref=e33]
+            - generic [ref=e34]: • PRE-SCHOOL
+          - generic [ref=e36]:
+            - paragraph [ref=e37]: beginning with the shaky courage of let-go hands at the classroom door and the gradual discovery of a world beyond home. It is a formative chapter defined by the sticky remains of craft glue, the focused silence of a coloring session, and the sudden, joyful chaos of the playground where the first foundations of friendship are built over shared toys. Through a rhythmic cycle of circle time songs, naptime stories, and the proud display of finger-painted masterpieces, a child transforms from a hesitant observer into a curious explorer. By the time the final bell rings on that first year, the journey has successfully traded separation anxiety for a newfound confidence, turning a room full of strangers into a community and a daunting school building into a second home.
+            - list [ref=e38]:
+              - listitem [ref=e39]:
+                - generic [ref=e41]: K-1 1ST HONOR
+              - listitem [ref=e42]:
+                - generic [ref=e44]: K-2 2ND HONOR
+              - listitem [ref=e45]:
+                - generic [ref=e47]: MOST HELPFUL
+            - generic [ref=e48]:
+              - generic [ref=e49]: WANDERING KID
+              - generic [ref=e50]: TITA's BOY
+              - generic [ref=e51]: HONOR STUDENT
+              - generic [ref=e52]: IPAD KID
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - heading "ICCS" [level=2] [ref=e55]
+            - generic [ref=e56]: • ELEMENTARY
+          - generic [ref=e58]:
+            - paragraph [ref=e59]: Elementary school began with a very focused start, where from Grade 1 to 3, I was the typical "good student" who cared mostly about grades and lessons. However, that changed in Grade 4 when the fun of childhood games took over, and I became a bit of a slacker. Instead of following the teacher's instructions, I started skipping classes to play Takyan, Dampa, and Teks with my friends, or heading to the computer shop to get lost in video games. Everything shifted again in Grade 5 when I discovered tennis. I decided to take the sport seriously, which actually pushed me to start caring about my academics again, too. But because my passion for the court was so strong, I often prioritized my training over everything else. My journey through those final years of elementary was a constant balancing act I was a dedicated student-athlete who would sometimes skip homework or school projects just to squeeze in more time for a tennis match.
+            - list [ref=e60]:
+              - listitem [ref=e61]:
+                - generic [ref=e63]: G3 2ND HONOR
+              - listitem [ref=e64]:
+                - generic [ref=e66]: MILO OLYMPICS DRONZE MEDLIST
+              - listitem [ref=e67]:
+                - generic [ref=e69]: 2X DIVISION ATHLETIC MEET SINGLES CHAMPION
+              - listitem [ref=e70]:
+                - generic [ref=e72]: DIVISION ATHLETIC MEET DOUBLES CHAMPION
+            - generic [ref=e73]:
+              - generic [ref=e74]: HONOR STUDENT
+              - generic [ref=e75]: LAWN TENNIS
+              - generic [ref=e76]: STUDENT-ATHLETE
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - heading "ICNHS" [level=2] [ref=e79]
+            - generic [ref=e80]: • HIGH SCHOOL (2017-2023)
+          - generic [ref=e82]:
+            - paragraph [ref=e83]: The high school journey started with a lot of energy as a student-athlete from Grade 7 to 9. Those years were all about the excitement of the game, team practices, and trying to keep up with school while staying active in sports. Everything changed in Grade 10 when the pandemic hit, and suddenly the busy world of sports stopped. Being stuck at home forced a big change in focus. By Grade 11 and 12, the focus shifted away from the court and into the books. This was a major turning point, as a new love for math began to grow. The competitive spirit once used for sports was now used to solve hard equations and master academic challenges. By the end of high school, the journey had changed from being an athlete to becoming a dedicated student who truly enjoyed the challenge of numbers.
+            - list [ref=e84]:
+              - listitem [ref=e85]:
+                - generic [ref=e87]: TOP 3 OVERALL ICHNS HONOR AWARD
+              - listitem [ref=e88]:
+                - generic [ref=e90]: DSTD 1ST PLACER
+              - listitem [ref=e91]:
+                - generic [ref=e93]: DSTF 2ND PLCER
+              - listitem [ref=e94]:
+                - generic [ref=e96]: QBO NATIONAL START-UP CHALLENG QUALIFIER
+              - listitem [ref=e97]:
+                - generic [ref=e99]: SEAMEO INNOTECH QUALIFIER
+              - listitem [ref=e100]:
+                - generic [ref=e102]: YOUNG INVENTORS CHALLENGE TOP100 QUALIFIER
+              - listitem [ref=e103]:
+                - generic [ref=e105]: iDEYA futureiliganX QUALIFIER
+              - listitem [ref=e106]:
+                - generic [ref=e108]: ICNHS BEST INNOVATION AWARD
+              - listitem [ref=e109]:
+                - generic [ref=e111]: BANTUGAN AWARD
+              - listitem [ref=e112]:
+                - generic [ref=e114]: "AQUA GAURDIAN: A Drone-Based Semi-Automatic Water Sampling with Tether System and Ground Computer"
+              - listitem [ref=e115]:
+                - generic [ref=e117]: "Dr.One: Semi-Autonomous Environmental Quality Monitoring Drone with Predictive AI Analytics, Tether System, and Real-time Monitoring"
+              - listitem [ref=e118]:
+                - generic [ref=e120]: "Sensobot: An IoT System Water Quality Monitoring with Navigation Robot Capabilities in Exclusive Water System"
+              - listitem [ref=e121]:
+                - generic [ref=e123]: Aqua-lert:An IOT-based Water Leak Detector for Residential and Industrial Use
+            - generic [ref=e124]:
+              - generic [ref=e125]: LAWN TENNIS
+              - generic [ref=e126]: GREYHOUNDS
+              - generic [ref=e127]: STUDENT-ATHLETE
+              - generic [ref=e128]: START-UP
+              - generic [ref=e129]: RESEARCH
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - heading "MSU-IIT" [level=2] [ref=e132]
+            - generic [ref=e133]: • COLLEGE (2023-PRESENT)
+          - generic [ref=e135]:
+            - paragraph [ref=e136]: STILL IN PROGRESS...
+            - list [ref=e137]:
+              - listitem [ref=e138]:
+                - generic [ref=e140]: MSUSAA 2026 BRONZE MEDALIST PICKLEBALL EVENT
+              - listitem [ref=e141]:
+                - generic [ref=e143]: OFFICIALY REGISTERED SAFETY OFFICER-2 BY UJPSME (DOLE ACCRIDITED)
+              - listitem [ref=e144]:
+                - generic [ref=e146]: LICTSAA 2026 CHAMPION
+              - listitem [ref=e147]:
+                - generic [ref=e149]: MAST GAMES 2025 CHAMPION
+              - listitem [ref=e150]:
+                - generic [ref=e152]: 1ST DINKYARD TOUR 1ST RUNNER-UP MIXED DOUBLES
+              - listitem [ref=e153]:
+                - generic [ref=e155]: BETA SIGMA LAMBDA PICKLEBALL TOUR 1ST RUNNER UP MIXED DOUBLES
+              - listitem [ref=e156]:
+                - generic [ref=e158]: BRGY. SAN ROQUE PALAKASAN 2.0 MEN DOUBLES CHAMPION
+              - listitem [ref=e159]:
+                - generic [ref=e161]: JPSME S.P.O.D.A. HEAD
+              - listitem [ref=e162]:
+                - generic [ref=e164]: MIPTAC START-UP CHALLENGE QUALIFIER
+              - listitem [ref=e165]:
+                - generic [ref=e167]: DICT PSCX 2025 QUALIFIER
+              - listitem [ref=e168]:
+                - generic [ref=e170]: DOST-TAPI QUALIFIER
+              - listitem [ref=e171]:
+                - generic [ref=e173]: "Dr.One: Semi-Autonomous Environmental Quality Monitoring Drone with Predictive AI Analytics, Tether System, and Real-time Monitoring"
+              - listitem [ref=e174]:
+                - generic [ref=e176]: "Daily Drop: A Food Delivery App"
+              - listitem [ref=e177]:
+                - generic [ref=e179]: "Khubo: A Rental Property Listing Platform"
+            - generic [ref=e180]:
+              - generic [ref=e181]: LAWN TENNIS
+              - generic [ref=e182]: PICKLEBALL
+              - generic [ref=e183]: MSU-IIT CATS
+              - generic [ref=e184]: STUDENT-ATHLETE
+              - generic [ref=e185]: START-UP
+              - generic [ref=e186]: RESEARCH
+      - generic [ref=e187]: PRECISION ENGINEERED
+  - generic [ref=e194]:
+    - generic [ref=e195]: COMMUNICATION_LINKAGE.EXE
+    - generic [ref=e200]:
+      - generic [ref=e205]:
+        - generic [ref=e206]: STATION_COORDINATE
+        - generic [ref=e207]: MSU-IIT, Tibanga, Iligan City, 9200, Mindanao, Philippines
+      - generic [ref=e212]:
+        - generic [ref=e213]: PRIMARY_UPLINK
+        - link "jaysonpantollanaj3@gmail.com" [ref=e214] [cursor=pointer]:
+          - /url: mailto:jaysonpantollanaj3@gmail.com
+      - generic [ref=e218]:
+        - generic [ref=e219]: DIRECT_LINE
+        - link "09351274355" [ref=e220] [cursor=pointer]:
+          - /url: tel:+639351274355
+      - generic [ref=e221]:
+        - generic [ref=e222]: "#"
+        - generic [ref=e224]:
+          - generic [ref=e225]: NETWORK_NODES
+          - generic [ref=e226]:
+            - link "GITHUB" [ref=e227] [cursor=pointer]:
+              - /url: https://github.com/jaysonpantollana
+            - link "FACEBOOK" [ref=e231] [cursor=pointer]:
+              - /url: https://www.facebook.com/jaysonpantoallana
+  - contentinfo [ref=e234]:
+    - generic [ref=e235]:
+      - generic [ref=e236]: J.E. PANTOLLANA
+      - generic [ref=e241]: © 2024 J.E. PANTOLLANA | MSU-IIT MECHANICAL ENGINEERINGDEPARTMENT OF MECHANICAL ENGINEERING AND TECHNOLOGY
+  - navigation [ref=e242]:
+    - link "HOME" [ref=e245] [cursor=pointer]:
+      - /url: /
+    - link "ACADEMICS" [ref=e251] [cursor=pointer]:
+      - /url: /academics
+    - link "PROJECTS" [ref=e258] [cursor=pointer]:
+      - /url: /projects
+    - link "TRIUMPH" [ref=e264] [cursor=pointer]:
+      - /url: /triumph
+    - link "START-UP" [ref=e270] [cursor=pointer]:
+      - /url: /startup

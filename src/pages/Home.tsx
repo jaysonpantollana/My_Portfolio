@@ -20,22 +20,22 @@ export default function Home() {
   };
 
   const galleryImages = [
-    "/image1.jpeg",
-    "/image2.jpeg",
-    "/image3.jpeg",
-    "/image4.jpeg",
-    "/image5.jpeg",
-    "/image6.jpg",
-    "/image7.jpg",
-    "/image8.jpg",
-    "/image9.jpg",
-    "/image10.jpg",
-    "/image11.jpg",
-    "/image12.jpg",
-    "/image13.jpg",
-    "/image14.jpg",
-    "/image15.jpg",
-    "/image16.jpg"
+    "/home/image1.jpeg",
+    "/home/image2.jpeg",
+    "/home/image3.jpeg",
+    "/home/image4.jpeg",
+    "/home/image5.jpeg",
+    "/home/image6.jpg",
+    "/home/image7.jpg",
+    "/home/image8.jpg",
+    "/home/image9.jpg",
+    "/home/image10.jpg",
+    "/home/image11.jpg",
+    "/home/image12.jpg",
+    "/home/image13.jpg",
+    "/home/image14.jpg",
+    "/home/image15.jpg",
+    "/home/image16.jpg"
   ];
 
   useEffect(() => {
@@ -69,7 +69,7 @@ export default function Home() {
       
       <div className="w-full h-full rounded-full border border-tertiary overflow-hidden shadow-[0_0_20px_rgba(251,188,0,0.15)] md:shadow-[0_0_30px_rgba(251,188,0,0.2)] bg-surface-container-high relative z-10">
         <img 
-          src="/profile.png" 
+          src="/home/profile.png" 
           alt="Jayson E. Pantollana Profile" 
           className="w-full h-full object-cover transition-all duration-500"
           referrerPolicy="no-referrer"
