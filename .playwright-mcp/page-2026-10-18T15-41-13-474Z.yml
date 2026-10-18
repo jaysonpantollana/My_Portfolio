@@ -1,0 +1,103 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "J. E. Pantollana" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - link "Projects" [ref=e8] [cursor=pointer]:
+          - /url: /projects
+        - link "Startups" [ref=e9] [cursor=pointer]:
+          - /url: /startup
+        - link "Academics & sports" [ref=e10] [cursor=pointer]:
+          - /url: /academics
+        - link "Honours" [ref=e11] [cursor=pointer]:
+          - /url: /triumph
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - heading "J. E. Pantollana" [level=1] [ref=e15]
+        - paragraph [ref=e17]: Mechanical engineering student at MSU-IIT, building machines that read water — drones that sample it, robots that monitor it, sensors that catch it leaking.
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: I founded two startups, competed in tennis and pickleball since grade school, and serve as SPODA Head for JPSME. Everything here is work I made, tested, and stood behind.
+          - link "See the machines" [ref=e21] [cursor=pointer]:
+            - /url: /projects
+        - img "Jayson E. Pantollana" [ref=e22]
+      - navigation "Sections" [ref=e23]:
+        - link "Projects Four machines built to read water — sampling drones, monitoring robots, leak detectors. View" [ref=e24] [cursor=pointer]:
+          - /url: /projects
+          - generic [ref=e25]: Projects
+          - generic [ref=e26]: Four machines built to read water — sampling drones, monitoring robots, leak detectors.
+          - generic [ref=e27]: View
+        - link "Startups DailyDrop and Khubo, two products built and running with a five-person team. View" [ref=e28] [cursor=pointer]:
+          - /url: /startup
+          - generic [ref=e29]: Startups
+          - generic [ref=e30]: DailyDrop and Khubo, two products built and running with a five-person team.
+          - generic [ref=e31]: View
+        - link "Academics & sports From hesitant kindergartener to mechanical engineering, with a tennis court in between. View" [ref=e32] [cursor=pointer]:
+          - /url: /academics
+          - generic [ref=e33]: Academics & sports
+          - generic [ref=e34]: From hesitant kindergartener to mechanical engineering, with a tennis court in between.
+          - generic [ref=e35]: View
+        - link "Honours Twelve awards across academic, regional, national, and international stages. View" [ref=e36] [cursor=pointer]:
+          - /url: /triumph
+          - generic [ref=e37]: Honours
+          - generic [ref=e38]: Twelve awards across academic, regional, national, and international stages.
+          - generic [ref=e39]: View
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - heading "The toolbox" [level=2] [ref=e42]
+          - paragraph [ref=e43]: Turn the keys — every tool I reach for
+        - generic [ref=e47]:
+          - generic:
+            - generic: Axis_Z
+            - generic: 0xFF_001
+          - generic [ref=e54]: Select Key to Inspect node
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - heading "Life lately" [level=2] [ref=e61]
+          - generic [ref=e62]:
+            - button "Scroll gallery left" [ref=e63]
+            - button "Scroll gallery right" [ref=e66]
+        - generic [ref=e69]:
+          - img "Life lately, photo 1" [ref=e70]
+          - img "Life lately, photo 2" [ref=e71]
+          - img "Life lately, photo 3" [ref=e72]
+          - img "Life lately, photo 4" [ref=e73]
+          - img "Life lately, photo 5" [ref=e74]
+          - img "Life lately, photo 6" [ref=e75]
+          - img "Life lately, photo 7" [ref=e76]
+          - img "Life lately, photo 8" [ref=e77]
+          - img "Life lately, photo 9" [ref=e78]
+          - img "Life lately, photo 10" [ref=e79]
+          - img "Life lately, photo 11" [ref=e80]
+          - img "Life lately, photo 12" [ref=e81]
+          - img "Life lately, photo 13" [ref=e82]
+          - img "Life lately, photo 14" [ref=e83]
+          - img "Life lately, photo 15" [ref=e84]
+          - img "Life lately, photo 16" [ref=e85]
+  - contentinfo [ref=e86]:
+    - generic [ref=e87]:
+      - paragraph [ref=e88]: “Be strong and courageous. Do not be afraid; do not be discouraged.”
+      - paragraph [ref=e89]: Joshua 1:9
+      - generic [ref=e90]:
+        - generic [ref=e95]:
+          - generic [ref=e96]: Based in
+          - generic [ref=e97]: MSU-IIT, Iligan City, Mindanao, Philippines
+        - generic [ref=e102]:
+          - generic [ref=e103]: Email
+          - link "jaysonpantollanaj3@gmail.com" [ref=e104] [cursor=pointer]:
+            - /url: mailto:jaysonpantollanaj3@gmail.com
+        - generic [ref=e108]:
+          - generic [ref=e109]: Phone
+          - link "0935 127 4355" [ref=e110] [cursor=pointer]:
+            - /url: tel:+639351274355
+      - generic [ref=e111]:
+        - generic [ref=e112]: © 2026 J. E. Pantollana · Department of Mechanical Engineering and Technology, MSU-IIT
+        - generic [ref=e113]:
+          - link "GitHub" [ref=e114] [cursor=pointer]:
+            - /url: https://github.com/jaysonpantollana
+          - link "Facebook" [ref=e115] [cursor=pointer]:
+            - /url: https://www.facebook.com/jaysonpantoallana
+          - link "Honours" [ref=e116] [cursor=pointer]:
+            - /url: /triumph
