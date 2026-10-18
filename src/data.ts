@@ -225,8 +225,8 @@ export const projectsData = [
     id: "001",
     title: "SENSOBOT",
     unit: "ASSEMBLY UNIT 001",
-    description: "A modular robotic assembly designed for high-precision manufacturing environments and autonomous material handling.",
-    image: "https://picsum.photos/seed/robot1/800/600"
+    description: "Sensobot: An IoT System Water Quality Monitoring with Navigation Robot Capabilities in Exclusive Water System",
+    image: "/projects/sensobot.jpg"
   },
   {
     id: "003",

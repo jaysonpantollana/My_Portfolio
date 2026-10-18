@@ -12,7 +12,7 @@ export default function WallOfTriumph() {
             <span className="text-tertiary italic">TRIUMPH</span>
           </h2>
           <p className="text-on-surface-variant text-lg font-body leading-relaxed border-l-2 border-tertiary pl-6 py-2">
-            This Wall of Triumph serves as a technical record of academic and professional excellence within the engineering, entrepreneurship, and research disciplines throughout my academic journey, honouring a journey where human dedication and divine blessings and help from God converge to transform the gift of life into a legacy of purposeful innovation.
+            This Wall of Triumph serves as a technical record of academic and professional excellence within the engineering, sports, entrepreneurship, and research disciplines throughout my academic journey, honouring a journey where human dedication and divine blessings and help from God converge to transform the gift of life into a legacy of purposeful innovation.
           </p>
         </div>
 
