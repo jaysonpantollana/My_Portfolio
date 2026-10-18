@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
-import { BIBLE_VERSES } from "../data";
+import { BIBLE_VERSES, GALLERY_IMAGES } from "../data";
 import { ChevronLeft, ChevronRight, Github, ExternalLink } from "lucide-react";
 import InteractiveKeyboard from "../components/InteractiveKeyboard";
 
@@ -19,24 +19,6 @@ export default function Home() {
     }
   };
 
-  const galleryImages = [
-    "/home/image1.jpeg",
-    "/home/image2.jpeg",
-    "/home/image3.jpeg",
-    "/home/image4.jpeg",
-    "/home/image5.jpeg",
-    "/home/image6.jpg",
-    "/home/image7.jpg",
-    "/home/image8.jpg",
-    "/home/image9.jpg",
-    "/home/image10.jpg",
-    "/home/image11.jpg",
-    "/home/image12.jpg",
-    "/home/image13.jpg",
-    "/home/image14.jpg",
-    "/home/image15.jpg",
-    "/home/image16.jpg"
-  ];
 
   useEffect(() => {
     const verseTimer = setInterval(() => {
@@ -219,7 +201,7 @@ export default function Home() {
                 className="flex gap-4 overflow-x-auto no-scrollbar snap-x snap-mandatory"
                 style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
               >
-                {galleryImages.map((src, index) => (
+                {GALLERY_IMAGES.map((src, index) => (
                   <div key={index} className="flex-none w-full sm:w-1/2 md:w-[calc(33.333%-11px)] aspect-square md:aspect-video snap-start">
                     <img 
                       src={src} 

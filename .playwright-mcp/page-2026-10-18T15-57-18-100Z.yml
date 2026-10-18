@@ -1,0 +1,113 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - navigation [ref=f2e5]:
+      - link "J.E. PANTOLLANA" [ref=f2e7] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f2e12]:
+        - link "HOME" [ref=f2e13] [cursor=pointer]:
+          - /url: /
+        - link "ACADEMICS & SPORTS" [ref=f2e14] [cursor=pointer]:
+          - /url: /academics
+        - link "PROJECTS" [ref=f2e15] [cursor=pointer]:
+          - /url: /projects
+        - link "WALL OF TRIUMPH" [ref=f2e16] [cursor=pointer]:
+          - /url: /triumph
+        - link "START-UP" [ref=f2e17] [cursor=pointer]:
+          - /url: /startup
+  - main [ref=f2e18]:
+    - generic [ref=f2e20]:
+      - generic [ref=f2e21]:
+        - generic [ref=f2e22]:
+          - generic [ref=f2e26]:
+            - text: Joshua 1:9
+            - generic [ref=f2e27]: – "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go."
+          - heading "JAYSON E. PANTOLLANA" [level=1] [ref=f2e29]
+          - generic [ref=f2e31]:
+            - link "ACADEMICS & SPORTS" [ref=f2e32] [cursor=pointer]:
+              - /url: /academics
+            - link "PROJECTS" [ref=f2e35] [cursor=pointer]:
+              - /url: /projects
+            - link "WALL OF TRIUMPH" [ref=f2e38] [cursor=pointer]:
+              - /url: /triumph
+            - link "START-UP" [ref=f2e41] [cursor=pointer]:
+              - /url: /startup
+          - generic [ref=f2e44]:
+            - generic [ref=f2e45]:
+              - paragraph [ref=f2e46]: ABOUT ME
+              - generic [ref=f2e47]:
+                - paragraph [ref=f2e48]: I am a Mechanical Engineering student at MSU-IIT blending technical rigor with a disciplined work ethic shaped by years of competitive tennis. As a founder of a local startup, I lead the development of platforms such as DailyDrop a food delivery app and Khubo a rental property listing app. Now, it is in progress, and concurrently serving as the SPODA Head for JPSME.
+                - paragraph [ref=f2e49]: My journey is deeply rooted in a commitment to continuous self-improvement and an unwavering foundation of faith, both of which serve as the internal compass for everything I build. I believe that true innovation is not just about technical mastery, but about ensuring that my work in engineering research and software development translates into a meaningful, lasting contribution to my community.
+            - generic [ref=f2e50]:
+              - paragraph [ref=f2e51]: ACKNOWLEDGEMENT
+              - generic [ref=f2e52]:
+                - paragraph [ref=f2e53]: Above all, I offer my most profound gratitude to the Almighty God, the author of my life and the source of every blessing I have received. As I reflect on my journey through research, academics, sports, and the building of my startups, I am humbled by the realization that while these achievements are the result of hard work and dedication, it is His hand that has guided every step.
+                - paragraph [ref=f2e54]: I thank Him for the blessing of life itself, for the air I breathe, and for the opportunity to live out the purpose He has set before me. Beyond the technical wins and academic honors, I am most grateful for how He has guided me and improved me as a man. He has taken my ambitions and refined them, teaching me to walk in His ways and molding my character through both success and struggle.
+                - paragraph [ref=f2e55]: In the long nights spent coding or studying engineering, He was my clarity. In the heat of competition on the court, He was my discipline. In the uncertainty of starting a business, He was my steady foundation. I am thankful for the grace to live the life He gave me and for the constant guidance that pushes me to grow into a better version of myself every day. Every milestone reached is not a testament to my own power but to His unending favor. I dedicate all my work and my very life back to Him, acknowledging that I am who I am today only by His divine grace. To God be all the glory.
+        - generic [ref=f2e57]:
+          - img "Jayson E. Pantollana Profile" [ref=f2e61]
+          - generic [ref=f2e62]: ONLINE_LINK
+      - generic [ref=f2e68]:
+        - generic:
+          - generic: Axis_Z
+          - generic: 0xFF_001
+        - generic [ref=f2e75]: Select Key to Inspect node
+      - generic [ref=f2e81]:
+        - generic [ref=f2e82]: GALLERY
+        - generic [ref=f2e83]:
+          - generic [ref=f2e84]:
+            - img "Gallery view 1" [ref=f2e86]
+            - img "Gallery view 2" [ref=f2e88]
+            - img "Gallery view 3" [ref=f2e90]
+            - img "Gallery view 4" [ref=f2e92]
+            - img "Gallery view 5" [ref=f2e94]
+            - img "Gallery view 6" [ref=f2e96]
+            - img "Gallery view 7" [ref=f2e98]
+            - img "Gallery view 8" [ref=f2e100]
+            - img "Gallery view 9" [ref=f2e102]
+            - img "Gallery view 10" [ref=f2e104]
+            - img "Gallery view 11" [ref=f2e106]
+            - img "Gallery view 12" [ref=f2e108]
+            - img "Gallery view 13" [ref=f2e110]
+            - img "Gallery view 14" [ref=f2e112]
+            - img "Gallery view 15" [ref=f2e114]
+            - img "Gallery view 16" [ref=f2e116]
+          - button "Previous image" [ref=f2e117]
+          - button "Next image" [ref=f2e120]
+  - generic [ref=f2e125]:
+    - generic [ref=f2e126]: COMMUNICATION_LINKAGE.EXE
+    - generic [ref=f2e131]:
+      - generic [ref=f2e136]:
+        - generic [ref=f2e137]: STATION_COORDINATE
+        - generic [ref=f2e138]: MSU-IIT, Tibanga, Iligan City, 9200, Mindanao, Philippines
+      - generic [ref=f2e143]:
+        - generic [ref=f2e144]: PRIMARY_UPLINK
+        - link "jaysonpantollanaj3@gmail.com" [ref=f2e145] [cursor=pointer]:
+          - /url: mailto:jaysonpantollanaj3@gmail.com
+      - generic [ref=f2e149]:
+        - generic [ref=f2e150]: DIRECT_LINE
+        - link "09351274355" [ref=f2e151] [cursor=pointer]:
+          - /url: tel:+639351274355
+      - generic [ref=f2e152]:
+        - generic [ref=f2e153]: "#"
+        - generic [ref=f2e155]:
+          - generic [ref=f2e156]: NETWORK_NODES
+          - generic [ref=f2e157]:
+            - link "GITHUB" [ref=f2e158] [cursor=pointer]:
+              - /url: https://github.com/jaysonpantollana
+            - link "FACEBOOK" [ref=f2e162] [cursor=pointer]:
+              - /url: https://www.facebook.com/jaysonpantoallana
+  - contentinfo [ref=f2e165]:
+    - generic [ref=f2e166]:
+      - generic [ref=f2e167]: J.E. PANTOLLANA
+      - generic [ref=f2e172]: © 2024 J.E. PANTOLLANA | MSU-IIT MECHANICAL ENGINEERINGDEPARTMENT OF MECHANICAL ENGINEERING AND TECHNOLOGY
+  - navigation [ref=f2e173]:
+    - link "HOME" [ref=f2e176] [cursor=pointer]:
+      - /url: /
+    - link "ACADEMICS" [ref=f2e183] [cursor=pointer]:
+      - /url: /academics
+    - link "PROJECTS" [ref=f2e189] [cursor=pointer]:
+      - /url: /projects
+    - link "TRIUMPH" [ref=f2e195] [cursor=pointer]:
+      - /url: /triumph
+    - link "START-UP" [ref=f2e201] [cursor=pointer]:
+      - /url: /startup

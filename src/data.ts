@@ -244,6 +244,31 @@ export const projectsData = [
   },
 ];
 
+export const GALLERY_IMAGES = [
+  "/home/image1.jpeg",
+  "/home/image2.jpeg",
+  "/home/image3.jpeg",
+  "/home/image4.jpeg",
+  "/home/image5.jpeg",
+  "/home/image6.jpg",
+  "/home/image7.jpg",
+  "/home/image8.jpg",
+  "/home/image9.jpg",
+  "/home/image10.jpg",
+  "/home/image11.jpg",
+  "/home/image12.jpg",
+  "/home/image13.jpg",
+  "/home/image14.jpg",
+  "/home/image15.jpg",
+  "/home/image16.jpg",
+  "/home/FB_IMG_1788214478164.jpg",
+  "/home/FB_IMG_1788214494515.jpg",
+  "/home/FB_IMG_1788349199202.jpg",
+  "/home/FB_IMG_1788358360271.jpg",
+  "/home/FB_IMG_1788589886094.jpg",
+  "/home/FB_IMG_1788611106185.jpg"
+];
+
 export const BIBLE_VERSES = [
   "Joshua 1:9 – \"Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.\"",
   "Isaiah 41:10 – \"So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.\"",
