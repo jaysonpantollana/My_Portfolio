@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-headline: "Space Grotesk", sans-serif;
   --font-body: "Manrope", sans-serif;
   --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
   --color-background: #131313;
   --color-primary: #ffb4a8;
@@ -36,5 +37,284 @@
   .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
+  }
+}
+
+/* ===== Welcome intro overlay (see src/components/WelcomeIntro.tsx) ===== */
+
+#intro-overlay {
+  --led-size: 6px;
+  --led-gap: 4px;
+  --intro-muted: #a8a09e;
+  --intro-ease: cubic-bezier(0.4, 0, 0.2, 1);
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  overflow: hidden;
+  color: #e5e2e1;
+  background-color: #131313;
+  transition: background-color 0.6s ease 0.5s;
+}
+
+#intro-overlay.is-skipping {
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+
+/* --- stage backdrop (stands in for the reference site's 3D canvas) --- */
+
+#intro-overlay .intro-stage {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+#intro-overlay .stage-glow {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(55% 45% at 50% 42%, rgba(251, 188, 0, 0.1), transparent 70%),
+    radial-gradient(40% 35% at 80% 80%, rgba(255, 180, 168, 0.06), transparent 70%);
+}
+
+#intro-overlay .stage-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.8;
+  background-image:
+    linear-gradient(rgba(90, 65, 61, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(90, 65, 61, 0.05) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* --- loader: LED eyes + percentage --- */
+
+#intro-overlay .intro-loader {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: grid;
+  place-content: center;
+  gap: 28px;
+  background: #131313;
+  transition: opacity 0.9s;
+}
+
+#intro-overlay .intro-loader.is-done {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#intro-overlay .led-eyes {
+  display: flex;
+  gap: calc(var(--led-size) * 5);
+  filter: drop-shadow(0 0 6px rgba(251, 188, 0, 0.55));
+}
+
+#intro-overlay .led-eye {
+  --dots: radial-gradient(circle, #000 0 calc(var(--led-size) / 2 - 0.5px), transparent calc(var(--led-size) / 2)) 0 0 / calc(var(--led-size) + var(--led-gap)) calc(var(--led-size) + var(--led-gap));
+  width: calc(var(--led-size) * 10 + var(--led-gap) * 9);
+  height: calc(var(--led-size) * 6 + var(--led-gap) * 5);
+  background: linear-gradient(#ffd75e, #fbbc00 60%, #ffb4a8);
+  -webkit-mask: var(--dots);
+  mask: var(--dots);
+  clip-path: polygon(20% 0, 80% 0, 100% 30%, 100% 70%, 80% 100%, 20% 100%, 0 70%, 0 30%);
+  transform-origin: 50%;
+  animation: welcome-led-blink 3.2s infinite;
+}
+
+@keyframes welcome-led-blink {
+  0%,
+  92%,
+  100% {
+    transform: scaleY(1);
+  }
+  95% {
+    transform: scaleY(0.1);
+  }
+}
+
+#intro-overlay .loader-pct {
+  margin: 0;
+  font: 500 11px / 1 var(--font-mono);
+  letter-spacing: 0.3em;
+  color: var(--intro-muted);
+  opacity: 0.7;
+}
+
+/* --- hero: icons / title / url --- */
+
+#intro-overlay .intro-hero {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+#intro-overlay .hero-stack {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  transition:
+    top 1.4s var(--intro-ease),
+    left 1.4s var(--intro-ease),
+    transform 1.4s var(--intro-ease),
+    align-items 0.6s ease;
+}
+
+#intro-overlay .hero-stack.is-settled {
+  top: 50%;
+  left: clamp(24px, 8vw, 140px);
+  align-items: flex-start;
+  transform: translate(0, -50%);
+}
+
+#intro-overlay .hero-icons {
+  display: flex;
+  gap: clamp(14px, 2vw, 22px);
+  margin-bottom: clamp(18px, 4.2vh, 40px);
+}
+
+#intro-overlay .hero-icon {
+  display: grid;
+  place-items: center;
+  width: clamp(44px, 4.2vw, 54px);
+  aspect-ratio: 1;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(251, 188, 0, 0.22);
+  border-radius: 50%;
+  box-shadow: 0 0 24px rgba(251, 188, 0, 0.1);
+}
+
+#intro-overlay .hero-icon svg {
+  width: 42%;
+  height: 42%;
+  fill: none;
+  stroke: #e5e2e1;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#intro-overlay .hero-title {
+  display: grid;
+  justify-items: center;
+  gap: clamp(2px, 0.6vh, 8px);
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#intro-overlay .hero-kicker {
+  margin-right: -0.5em;
+  font: 500 clamp(11px, 1.05vw, 15px) / 1 var(--font-mono);
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: var(--intro-muted);
+}
+
+#intro-overlay .hero-name {
+  padding: 0 0.04em 0.06em;
+  font: 600 min(8.4vw, 11vh) / 1.1 var(--font-headline);
+  letter-spacing: -0.03em;
+  color: transparent;
+  background: linear-gradient(100deg, #fff0d0 0%, #fbbc00 45%, #ffb4a8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#intro-overlay .hero-url {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin: clamp(12px, 2.6vh, 26px) 0 0;
+  font: 400 clamp(12px, 1vw, 15px) / 1 var(--font-mono);
+  letter-spacing: 0.04em;
+  color: #e0b45a;
+  white-space: nowrap;
+}
+
+#intro-overlay .hero-url svg {
+  width: 1.25em;
+  height: 1.25em;
+  fill: none;
+  stroke: #e0b45a;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Settled state: hero moves left and shrinks (reference: .is-settled). */
+
+#intro-overlay .hero-stack.is-settled .hero-title {
+  text-align: left;
+  justify-items: start;
+}
+
+#intro-overlay .hero-stack.is-settled .hero-kicker {
+  margin-right: 0;
+}
+
+#intro-overlay .hero-stack.is-settled .hero-name {
+  font-size: min(5.6vw, 9vh);
+}
+
+/* --- skip button --- */
+
+#intro-overlay .intro-skip {
+  position: absolute;
+  right: max(20px, env(safe-area-inset-right, 0px));
+  bottom: max(20px, env(safe-area-inset-bottom, 0px));
+  z-index: 20;
+  padding: 10px 16px;
+  font: 500 12px / 1 var(--font-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--intro-muted);
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 999px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition:
+    color 0.2s,
+    background-color 0.2s,
+    transform 0.12s ease-out;
+}
+
+#intro-overlay .intro-skip:hover {
+  color: #f4f5fb;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#intro-overlay .intro-skip:active {
+  transform: scale(0.96);
+}
+
+#intro-overlay .intro-skip:focus-visible {
+  outline: 2px solid #fbbc00;
+  outline-offset: 2px;
+}
+
+/* Reduced motion: freeze the decorative animation (overlay itself is
+   normally skipped entirely via shouldPlayIntro). */
+
+@media (prefers-reduced-motion: reduce) {
+  #intro-overlay .led-eye {
+    animation: none;
+  }
+  #intro-overlay,
+  #intro-overlay .intro-loader,
+  #intro-overlay .hero-stack {
+    transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
   }
 }
